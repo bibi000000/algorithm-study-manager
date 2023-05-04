@@ -1,0 +1,26 @@
+{
+  "name": "GitHub Login",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Log in to your GitHub account",
+  "permissions": ["identity", "https://api.github.com/*","https://github.com/*"],
+  "action": {
+    "default_icon": {
+      "16": "icons/icon.png",
+      "32": "icons/icon.png",
+      "48": "icons/icon.png",
+      "128": "icons/icon.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "background":{
+    "serveice_worker": "background.js"
+  },
+  "oauth2":{
+    "client_id": "b59f5ff212158998d4a2",
+    "scopes" :["repo"],
+    "authorization_endpoint": "https://github.com/login/oauth/authorize",
+    "token_endpoint": "https://github.com/login/oauth/access_token"
+  }
+ 
+}
