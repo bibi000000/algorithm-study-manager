@@ -14,7 +14,17 @@ g = Github(os.environ["KYR_ACCESS_TOKEN"])
 for repo in g.get_user().get_repos():
     print(repo.name)
 
-print(g.get_repo('algorithm-study-manager'))
 
-# result = requests.po
+result = requests.post(
+    headers={
+        'Accept': 'application/vnd.github_json',
+        'Authorization': f'Bearer {os.environ["KYR_ACCESS_TOKEN"]}',
+        'X-GitHub-Api-Version': '2022-11-28',
+    },
+    url='https://api.github.com/repos/poundly/algorithm-study-manager/commits/COMMIT_SHA/comments',
+    data='{"body":"Great stuff","path":"file1.txt","position":4,"line":1}'
+)
+
+print(result)
+
 
