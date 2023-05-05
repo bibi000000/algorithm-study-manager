@@ -1,3 +1,5 @@
-./scraper/extractors/programmers_env.py
-.DS_Store
 .idea
+.DS_Store
+__pycache__
+
+*env*

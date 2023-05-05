@@ -19,7 +19,7 @@ http = urllib3.PoolManager()
 
 # options = Options()
 options = webdriver.ChromeOptions()
-# options.add_argument('--headless')  # 실행화면 안보이게 (Background(CLI))
+options.add_argument('--headless')  # 실행화면 안보이게 (Background(CLI))
 options.add_argument('--disable-dev-shm-usage')
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
 options.add_experimental_option('detach', True)
