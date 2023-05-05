@@ -1,4 +1,5 @@
 import os
+import requests
 from github import Github
 
 # First create a Github instance:
@@ -13,4 +14,7 @@ g = Github(os.environ["KYR_ACCESS_TOKEN"])
 for repo in g.get_user().get_repos():
     print(repo.name)
 
-g.render_markdown('wow')
+print(g.get_repo('algorithm-study-manager'))
+
+# result = requests.po
+
