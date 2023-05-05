@@ -1,2 +1,3 @@
 ./scraper/extractors/programmers_env.py
 .DS_Store
+.idea
