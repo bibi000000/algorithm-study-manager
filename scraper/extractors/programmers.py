@@ -10,8 +10,9 @@ from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 # from scraper.extractors.programmers_env import email, password
 # from scraper.utils.file import save_to_file_programmers
-from ./scraper/extractors/programmers_env import email, password
-from ./scraper/utils.file import save_to_file_programmers
+
+email = "pound1734@gmail.com"
+password = "0828dbff!!"
 
 http = urllib3.PoolManager()
 
@@ -128,4 +129,12 @@ def extract_programmers_challenges_solved():
     return challenges_problems
 
 
+def save_to_file_programmers(file_name, problems):
+# def save_to_file_programmers(file_name):
+    file = open(f'scraper/problems/{file_name}.csv', 'w', encoding='utf-8')
+    # file = open(f'problems/{file_name}.csv', 'w', encoding='utf-8')
+    file.write("title, link, level, finished_count, acceptance_rate\n")
+    for p in problems:
+        file.write(f"{p['title']},{p['link']},{p['level']},{p['finished_count']},{p['acceptance_rate']}\n")
+    file.close()
 
