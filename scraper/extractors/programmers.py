@@ -8,8 +8,10 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
-from scraper.extractors.programmers_env import email, password
-from scraper.utils.file import save_to_file_programmers
+# from scraper.extractors.programmers_env import email, password
+# from scraper.utils.file import save_to_file_programmers
+from .programmers_env import email, password
+from ../utils.file import save_to_file_programmers
 
 http = urllib3.PoolManager()
 
