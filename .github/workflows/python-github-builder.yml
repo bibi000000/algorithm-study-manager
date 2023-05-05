@@ -37,10 +37,10 @@ jobs:
     - name: Install lib
       run: |
         python -m pip install --upgrade pip
-        if [ -f ./lib/requirements.txt ]; then pip install -r ./lib/requirements.txt; fi
+        if [ -f lib/requirements.txt ]; then pip install -r lib/requirements.txt; fi
     - name: Execute main.py
       run: |
-        python ./scrap/main.py ${{secrets.KYR_ACCESS_TOKEN}}
+        python scrap/main.py ${{secrets.KYR_ACCESS_TOKEN}}
 #    - name: Lint with flake8
 #      run: |
 #        # stop the build if there are Python syntax errors or undefined names
