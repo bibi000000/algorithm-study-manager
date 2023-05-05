@@ -134,7 +134,7 @@ def extract_programmers_challenges_solved():
 
 def save_to_file_programmers(file_name, problems):
 # def save_to_file_programmers(file_name):
-    file = open(f'scraper/problems/{file_name}.csv', 'w', encoding='utf-8')
+    file = open(f'{file_name}.csv', 'w', encoding='utf-8')
     # file = open(f'problems/{file_name}.csv', 'w', encoding='utf-8')
     file.write("title, link, level, finished_count, acceptance_rate\n")
     for p in problems:
