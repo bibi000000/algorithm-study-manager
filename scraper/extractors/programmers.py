@@ -4,10 +4,11 @@ import urllib3
 # import requests
 # from bs4 import BeautifulSoup
 from selenium import webdriver
+from selenium.webdriver import Keys
 from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.service import Service as ChromeService
-from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.service import Service as ChromeService
+# from selenium.webdriver.chrome.options import Options
 # from scraper.extractors.programmers_env import email, password
 # from scraper.utils.file import save_to_file_programmers
 
@@ -16,10 +17,12 @@ password = "0828dbff!!"
 
 http = urllib3.PoolManager()
 
-options = Options()
+# options = Options()
+options = webdriver.ChromeOptions()
 # options.add_argument('--headless')  # 실행화면 안보이게 (Background(CLI))
 options.add_argument('--disable-dev-shm-usage')
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
+options.add_experimental_option('detach', True)
 service = ChromeService(executable_path=ChromeDriverManager().install())
 driver = webdriver.Chrome(options=options, service=service)
 
