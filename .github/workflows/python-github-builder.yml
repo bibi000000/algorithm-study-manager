@@ -17,7 +17,7 @@ jobs:
 
     runs-on: ubuntu-latest
     env:
-      ACCESS_TOKEN: ${{secrets.KYR_ACCESS_TOKEN}}
+      KYR_ACCESS_TOKEN: ${{github.access_token}}
 
     steps:
     - uses: actions/checkout@v3
