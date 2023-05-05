@@ -32,9 +32,9 @@ jobs:
       run: |
         ls
         pwd
-#    - name: Execute extracting problems from programmers
-#      run: |
-#        python main.py
+    - name: Execute extracting problems from programmers
+      run: |
+        python ./scraper/main.py
 #    - name: Lint with flake8
 #      run: |
 #        # stop the build if there are Python syntax errors or undefined names
