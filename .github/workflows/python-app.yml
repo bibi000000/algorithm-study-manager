@@ -5,9 +5,9 @@ name: Python application
 
 on:
   push:
-    branches: [ "programmers-scraper" ]
+    branches: [ "scraper" ]
   pull_request:
-    branches: [ "programmers-scraper" ]
+    branches: [ "scraper" ]
 
 permissions:
   contents: read
