@@ -44,8 +44,6 @@ jobs:
           git config --global user.email 'whyyouareay@gmail.com'
           git add -A
           git commit -am "[action] update"
-      - name: Push changes
-        run: |
           git push origin action
 
 #    - name: Lint with flake8
