@@ -1,4 +1,4 @@
-#Algorithm Study Manager
+# Algorithm Study Manager
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta vel nibh in congue. Phasellus facilisis odio sit amet lectus ornare, non ultricies leo vestibulum. Mauris in diam at dolor euismod vehicula. Morbi ut nibh luctus, congue risus quis, blandit augue. Duis quis iaculis nisi, mattis aliquet lectus. Integer lacinia elementum libero. Fusce at erat a ex egestas dictum ut in risus. Vestibulum imperdiet, nulla vitae ultricies aliquam, ante elit maximus erat, sed tempor ipsum lorem nec sem.
 
