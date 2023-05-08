@@ -27,4 +27,9 @@ result = requests.post(
 
 print(result)
 
+file_name = "test"
+file = open(f'{file_name}.txt', 'w')
+file.write("result")
+file.close()
+
 
