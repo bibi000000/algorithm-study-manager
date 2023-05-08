@@ -44,8 +44,11 @@ jobs:
           git config --global user.email 'whyyouareay@gmail.com'
           git add -A
           git commit -am "[action] update"
-          git push origin action
-
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: "action"
+          github_token: "${{secrets.KYR_ACCESS_TOKEN}}"
 #    - name: Lint with flake8
 #      run: |
 #        # stop the build if there are Python syntax errors or undefined names
