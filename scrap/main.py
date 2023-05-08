@@ -28,7 +28,7 @@ Proin tempor consequat posuere. Curabitur eget sapien pharetra, varius lacus id,
 
 file_name = "README.md"
 file = open(f'{file_name}', 'w')
-file.write("#Algorithm Study Manager\n")
+file.write("# Algorithm Study Manager\n")
 file.write(lorem_ipsum)
 file.close()
 
