@@ -45,8 +45,9 @@ jobs:
           git add .
           git commit -m "[action] update"
       - name: Push changes
-        uses: ad-m/github-push-action@action
+        uses: ad-m/github-push-action@master
         with:
+          repository: "algorithm-study-manager"
           branch: "action"
           github_token: "${{secrets.KYR_ACCESS_TOKEN}}"
 #    - name: Lint with flake8
