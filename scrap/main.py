@@ -26,10 +26,11 @@ result = requests.post(
 )
 
 print(result)
+print(result.content)
 
 file_name = "README.md"
 file = open(f'{file_name}', 'a')
-file.write(result)
+file.write(result.content)
 file.close()
 
 
