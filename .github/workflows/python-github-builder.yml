@@ -49,7 +49,7 @@ jobs:
         with:
           repository: "poundee/algorithm-study-manager"
           branch: "action"
-          github_token: "${{secrets.KYR_ACCESS_TOKEN}}"
+          # github_token: "${{secrets.KYR_ACCESS_TOKEN}}"
 #    - name: Lint with flake8
 #      run: |
 #        # stop the build if there are Python syntax errors or undefined names
