@@ -3,4 +3,3 @@ requests
 urllib3
 selenium
 webdriver_manager
-json
