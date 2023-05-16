@@ -4,36 +4,76 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="jquery-3.7.0.min.js"></script>
     <title>Document</title>
   </head>
   <body>
     <h1>Hello A S M !</h1>
     <div id="programmers_challenges"></div>
     <script>
-      const fs = require("fs");
-      const path = requre("path");
+      // const fs = require("fs");
+      // const path = requre("path");
       window.onload = function () {
         let programmers_challenges = document.getElementById(
           "programmers_challenges"
         );
         let p_innerHTML = "프로그래머스 문제 모음";
-        // let p_path = "../scraper/problems/programmers.csv";
-        const p_filename = "programmers.csv";
-        const p_path = path.join(
-          __dirname,
-          "..",
-          "scraper",
-          "problems",
-          p_filename
-        );
-        const p_csv = fs.readFileSync(p_path, "utf-8");
-        const p_rows = csv.split(/\r?\n|\r/);
-        for (const r in p_rows) {
-          console.log(r);
-          p_innerHTML += r + "\n";
-        }
+        $.ajax({
+          url: "../scraper/problems/programmers.csv",
+          dataType: "text",
+        }).done(loadProgrammersCSV);
+        // // let p_path = "../scraper/problems/programmers.csv";
+        // const p_filename = "programmers.csv";
+        // const p_path = path.join(
+        //   __dirname,
+        //   "..",
+        //   "scraper",
+        //   "problems",
+        //   p_filename
+        // );
+        // const p_csv = fs.readFileSync(p_path, "utf-8");
+        // const p_rows = csv.split(/\r?\n|\r/);
+        // for (const r in p_rows) {
+        //   console.log(r);
+        //   p_innerHTML += r + "\n";
+        // }
         programmers_challenges.innerHTML = p_innerHTML;
       };
+
+      function loadProgrammersCSV(data) {
+        var allRows = data.split(/\r?\n|\r/);
+        var table = "<table>";
+        for (var singleRow = 0; singleRow < allRows.length; singleRow++) {
+          if (singleRow === 0) {
+            table += "<thead>";
+            table += "<tr>";
+          } else {
+            table += "<tr>";
+          }
+          var rowCells = allRows[singleRow].split(",");
+          for (var rowCell = 0; rowCell < rowCells.length; rowCell++) {
+            if (singleRow === 0) {
+              table += "<th>";
+              table += rowCells[rowCell];
+              table += "</th>";
+            } else {
+              table += "<td>";
+              table += rowCells[rowCell];
+              table += "</td>";
+            }
+          }
+          if (singleRow === 0) {
+            table += "</tr>";
+            table += "</thead>";
+            table += "<tbody>";
+          } else {
+            table += "</tr>";
+          }
+        }
+        table += "</tbody>";
+        table += "</table>";
+        $("body").append(table);
+      }
     </script>
   </body>
 </html>
