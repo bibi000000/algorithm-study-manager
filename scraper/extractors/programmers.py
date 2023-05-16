@@ -3,6 +3,8 @@ import os
 import requests
 from github import Github
 
+import json
+
 import urllib3
 # import requests
 # from bs4 import BeautifulSoup
@@ -144,12 +146,16 @@ def save_challenges():
 #     file.close()    
 
 def save_to_file_programmers(file_name, problems):
-# def save_to_file_programmers(file_name):
-    file = open(f'scraper/problems/{file_name}.csv', 'w', encoding='utf-8')
-    # file = open(f'problems/{file_name}.csv', 'w', encoding='utf-8')
-    file.write("title;link;level;finished_count;acceptance_rate\n")
-    for p in problems:
-        file.write(f"{p['title']};{p['link']};{p['level']};{p['finished_count']};{p['acceptance_rate']}\n")
+    # file = open(f'scraper/problems/{file_name}.csv', 'w', encoding='utf-8')
+    # file.write("title;link;level;finished_count;acceptance_rate\n")
+    # for p in problems:
+    #     file.write(f"{p['title']};{p['link']};{p['level']};{p['finished_count']};{p['acceptance_rate']}\n")
+    # file.close()
+    file = open(f'scraper/problems/{file_name}.json', 'w', encoding='utf-8')
+    data = {}
+    for i in range(0, len(problems)):
+        data[str(i+1)] = problems[i]
+    json.dump(data, file)
     file.close()
 
 

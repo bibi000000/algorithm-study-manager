@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="jquery-3.7.0.min.js"></script>
+    <script src="../library/jquery-3.7.0.min.js"></script>
     <title>Document</title>
   </head>
   <body>
@@ -20,7 +20,8 @@
         let p_innerHTML = "프로그래머스 문제 모음";
         $.ajax({
           url: "https://github.com/poundee/algorithm-study-manager/blob/main/scraper/problems/programmers.csv",
-          dataType: "text",
+          // dataType: "text",
+          dataType: "jsonp",
         }).done(loadProgrammersCSV);
         // // let p_path = "../scraper/problems/programmers.csv";
         // const p_filename = "programmers.csv";
@@ -41,38 +42,39 @@
       };
 
       function loadProgrammersCSV(data) {
-        var allRows = data.split(/\r?\n|\r/);
-        var table = "<table>";
-        for (var singleRow = 0; singleRow < allRows.length; singleRow++) {
-          if (singleRow === 0) {
-            table += "<thead>";
-            table += "<tr>";
-          } else {
-            table += "<tr>";
-          }
-          var rowCells = allRows[singleRow].split(",");
-          for (var rowCell = 0; rowCell < rowCells.length; rowCell++) {
-            if (singleRow === 0) {
-              table += "<th>";
-              table += rowCells[rowCell];
-              table += "</th>";
-            } else {
-              table += "<td>";
-              table += rowCells[rowCell];
-              table += "</td>";
-            }
-          }
-          if (singleRow === 0) {
-            table += "</tr>";
-            table += "</thead>";
-            table += "<tbody>";
-          } else {
-            table += "</tr>";
-          }
-        }
-        table += "</tbody>";
-        table += "</table>";
-        $("body").append(table);
+        $("body").append(data);
+        // var allRows = data.split(/\r?\n|\r/);
+        // var table = "<table>";
+        // for (var singleRow = 0; singleRow < allRows.length; singleRow++) {
+        //   if (singleRow === 0) {
+        //     table += "<thead>";
+        //     table += "<tr>";
+        //   } else {
+        //     table += "<tr>";
+        //   }
+        //   var rowCells = allRows[singleRow].split(",");
+        //   for (var rowCell = 0; rowCell < rowCells.length; rowCell++) {
+        //     if (singleRow === 0) {
+        //       table += "<th>";
+        //       table += rowCells[rowCell];
+        //       table += "</th>";
+        //     } else {
+        //       table += "<td>";
+        //       table += rowCells[rowCell];
+        //       table += "</td>";
+        //     }
+        //   }
+        //   if (singleRow === 0) {
+        //     table += "</tr>";
+        //     table += "</thead>";
+        //     table += "<tbody>";
+        //   } else {
+        //     table += "</tr>";
+        //   }
+        // }
+        // table += "</tbody>";
+        // table += "</table>";
+        // $("body").append(table);
       }
     </script>
   </body>
