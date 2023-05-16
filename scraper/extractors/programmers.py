@@ -125,7 +125,7 @@ def extract_programmers_challenges_solved():
                 'title': title.find_element(By.TAG_NAME, 'a').text,
                 'link': title.find_element(By.TAG_NAME, 'a').get_attribute('href'),
                 'level': dict_level[level.find_element(By.TAG_NAME, 'span').get_attribute('class')],
-                'finished_count': finished_count.text,
+                'finished_count': finished_count.text.replace(',', ''),
                 'acceptance_rate': acceptance_rate.text,
                 'solved': solved.get_attribute('class').split(' ')[1]
             })
