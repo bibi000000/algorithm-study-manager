@@ -51,4 +51,4 @@ jobs:
         with:
           repository: "poundee/algorithm-study-manager"
           branch: "scraper"
-          github_token: "${{secrets.KYR_ACCESS_TOKEN}}"
+          # github_token: "${{secrets.KYR_ACCESS_TOKEN}}"
