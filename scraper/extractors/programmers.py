@@ -47,11 +47,6 @@ def create_new_study():
     """
 
 
-def save_challenges():
-    challenges_total = extract_programmers_challenges_total()
-    save_to_file_programmers('programmers', challenges_total)
-
-
 def extract_programmers_challenges_total():
     driver.get(f"{base_url}/account/sign_in")
     inputs = driver.find_elements(By.CLASS_NAME, 'FymRFM681OjzOdzor5nk')
@@ -132,6 +127,11 @@ def extract_programmers_challenges_solved():
     return challenges_problems
 
 
+def save_challenges():
+    challenges_total = extract_programmers_challenges_total()
+    save_to_file_programmers('programmers', challenges_total)
+
+
 def save_to_file_programmers(file_name, problems):
 # def save_to_file_programmers(file_name):
     file = open(f'{file_name}.csv', 'w', encoding='utf-8')
@@ -140,4 +140,5 @@ def save_to_file_programmers(file_name, problems):
     for p in problems:
         file.write(f"{p['title']},{p['link']},{p['level']},{p['finished_count']},{p['acceptance_rate']}\n")
     file.close()
+
 
