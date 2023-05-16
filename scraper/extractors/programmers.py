@@ -1,4 +1,7 @@
 import time
+import os
+import requests
+from github import Github
 
 import urllib3
 # import requests
@@ -14,6 +17,8 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 
 email = "pound1734@gmail.com"
 password = "0828dbff!!"
+
+g = Github(os.environ["KYR_ACCESS_TOKEN"])
 
 http = urllib3.PoolManager()
 
@@ -128,9 +133,15 @@ def extract_programmers_challenges_solved():
 
 
 def save_challenges():
-    challenges_total = extract_programmers_challenges_total()
-    save_to_file_programmers('programmers', challenges_total)
+    # challenges_total = extract_programmers_challenges_total()
+    # save_to_file_programmers('programmers', challenges_total)
+    save_to_file_programmers_test()
 
+
+def save_to_file_programmers_test():
+    file = open(f'{file_name}.csv', 'w', encoding='utf-8')
+    file.write("title, link, level, finished_count, acceptance_rate\n")
+    file.close()    
 
 def save_to_file_programmers(file_name, problems):
 # def save_to_file_programmers(file_name):

@@ -1,7 +1,3 @@
-import os
-import requests
-from github import Github
-
 from extractors.programmers import \
     extract_programmers_challenges_solved, \
     extract_programmers_challenges_total, \
