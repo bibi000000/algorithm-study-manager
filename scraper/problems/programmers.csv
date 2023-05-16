@@ -1,20 +1,20 @@
 title, link, level, finished_count, acceptance_rate
-문자열 출력하기,https://school.programmers.co.kr/learn/courses/30/lessons/181952,Lv.0,6,637명,64%
-a와 b 출력하기,https://school.programmers.co.kr/learn/courses/30/lessons/181951,Lv.0,5,431명,75%
-문자열 반복해서 출력하기,https://school.programmers.co.kr/learn/courses/30/lessons/181950,Lv.0,4,810명,83%
-대소문자 바꿔서 출력하기,https://school.programmers.co.kr/learn/courses/30/lessons/181949,Lv.0,3,677명,71%
-특수문자 출력하기,https://school.programmers.co.kr/learn/courses/30/lessons/181948,Lv.0,3,516명,79%
-덧셈식 출력하기,https://school.programmers.co.kr/learn/courses/30/lessons/181947,Lv.0,3,972명,88%
-문자열 붙여서 출력하기,https://school.programmers.co.kr/learn/courses/30/lessons/181946,Lv.0,3,935명,89%
-문자열 돌리기,https://school.programmers.co.kr/learn/courses/30/lessons/181945,Lv.0,3,394명,86%
-홀짝 구분하기,https://school.programmers.co.kr/learn/courses/30/lessons/181944,Lv.0,3,825명,88%
+문자열 출력하기,https://school.programmers.co.kr/learn/courses/30/lessons/181952,Lv.0,6,638명,64%
+a와 b 출력하기,https://school.programmers.co.kr/learn/courses/30/lessons/181951,Lv.0,5,433명,75%
+문자열 반복해서 출력하기,https://school.programmers.co.kr/learn/courses/30/lessons/181950,Lv.0,4,811명,83%
+대소문자 바꿔서 출력하기,https://school.programmers.co.kr/learn/courses/30/lessons/181949,Lv.0,3,679명,71%
+특수문자 출력하기,https://school.programmers.co.kr/learn/courses/30/lessons/181948,Lv.0,3,519명,79%
+덧셈식 출력하기,https://school.programmers.co.kr/learn/courses/30/lessons/181947,Lv.0,3,975명,88%
+문자열 붙여서 출력하기,https://school.programmers.co.kr/learn/courses/30/lessons/181946,Lv.0,3,937명,89%
+문자열 돌리기,https://school.programmers.co.kr/learn/courses/30/lessons/181945,Lv.0,3,395명,86%
+홀짝 구분하기,https://school.programmers.co.kr/learn/courses/30/lessons/181944,Lv.0,3,827명,88%
 문자열 겹쳐쓰기,https://school.programmers.co.kr/learn/courses/30/lessons/181943,Lv.0,2,649명,74%
 문자열 섞기,https://school.programmers.co.kr/learn/courses/30/lessons/181942,Lv.0,2,613명,87%
-문자 리스트를 문자열로 변환하기,https://school.programmers.co.kr/learn/courses/30/lessons/181941,Lv.0,3,780명,89%
+문자 리스트를 문자열로 변환하기,https://school.programmers.co.kr/learn/courses/30/lessons/181941,Lv.0,3,781명,89%
 문자열 곱하기,https://school.programmers.co.kr/learn/courses/30/lessons/181940,Lv.0,4,011명,89%
 더 크게 합치기,https://school.programmers.co.kr/learn/courses/30/lessons/181939,Lv.0,2,793명,88%
 두 수의 연산값 비교하기,https://school.programmers.co.kr/learn/courses/30/lessons/181938,Lv.0,2,493명,83%
-n의 배수,https://school.programmers.co.kr/learn/courses/30/lessons/181937,Lv.0,4,840명,89%
+n의 배수,https://school.programmers.co.kr/learn/courses/30/lessons/181937,Lv.0,4,844명,89%
 공배수,https://school.programmers.co.kr/learn/courses/30/lessons/181936,Lv.0,4,118명,89%
 홀짝에 따라 다른 값 반환하기,https://school.programmers.co.kr/learn/courses/30/lessons/181935,Lv.0,2,549명,88%
 조건 문자열,https://school.programmers.co.kr/learn/courses/30/lessons/181934,Lv.0,1,886명,75%
@@ -22,73 +22,73 @@ flag에 따라 다른 값 반환하기,https://school.programmers.co.kr/learn/co
 코드 처리하기,https://school.programmers.co.kr/learn/courses/30/lessons/181932,Lv.0,1,445명,62%
 등차수열의 특정한 항만 더하기,https://school.programmers.co.kr/learn/courses/30/lessons/181931,Lv.0,1,593명,84%
 주사위 게임 2,https://school.programmers.co.kr/learn/courses/30/lessons/181930,Lv.0,1,741명,85%
-원소들의 곱과 합,https://school.programmers.co.kr/learn/courses/30/lessons/181929,Lv.0,2,685명,89%
+원소들의 곱과 합,https://school.programmers.co.kr/learn/courses/30/lessons/181929,Lv.0,2,686명,89%
 이어 붙인 수,https://school.programmers.co.kr/learn/courses/30/lessons/181928,Lv.0,2,149명,89%
-마지막 두 원소,https://school.programmers.co.kr/learn/courses/30/lessons/181927,Lv.0,1,840명,88%
+마지막 두 원소,https://school.programmers.co.kr/learn/courses/30/lessons/181927,Lv.0,1,841명,88%
 수 조작하기 1,https://school.programmers.co.kr/learn/courses/30/lessons/181926,Lv.0,2,161명,89%
 수 조작하기 2,https://school.programmers.co.kr/learn/courses/30/lessons/181925,Lv.0,1,310명,82%
 수열과 구간 쿼리 3,https://school.programmers.co.kr/learn/courses/30/lessons/181924,Lv.0,1,206명,81%
-수열과 구간 쿼리 2,https://school.programmers.co.kr/learn/courses/30/lessons/181923,Lv.0,996명,74%
+수열과 구간 쿼리 2,https://school.programmers.co.kr/learn/courses/30/lessons/181923,Lv.0,997명,74%
 수열과 구간 쿼리 4,https://school.programmers.co.kr/learn/courses/30/lessons/181922,Lv.0,897명,77%
-배열 만들기 2,https://school.programmers.co.kr/learn/courses/30/lessons/181921,Lv.0,932명,65%
+배열 만들기 2,https://school.programmers.co.kr/learn/courses/30/lessons/181921,Lv.0,933명,65%
 카운트 업,https://school.programmers.co.kr/learn/courses/30/lessons/181920,Lv.0,2,628명,89%
 콜라츠 수열 만들기,https://school.programmers.co.kr/learn/courses/30/lessons/181919,Lv.0,1,185명,85%
 배열 만들기 4,https://school.programmers.co.kr/learn/courses/30/lessons/181918,Lv.0,828명,74%
 간단한 논리 연산,https://school.programmers.co.kr/learn/courses/30/lessons/181917,Lv.0,1,043명,82%
 주사위 게임 3,https://school.programmers.co.kr/learn/courses/30/lessons/181916,Lv.0,783명,52%
 글자 이어 붙여 문자열 만들기,https://school.programmers.co.kr/learn/courses/30/lessons/181915,Lv.0,1,640명,89%
-9로 나눈 나머지,https://school.programmers.co.kr/learn/courses/30/lessons/181914,Lv.0,1,241명,85%
+9로 나눈 나머지,https://school.programmers.co.kr/learn/courses/30/lessons/181914,Lv.0,1,242명,85%
 문자열 여러 번 뒤집기,https://school.programmers.co.kr/learn/courses/30/lessons/181913,Lv.0,771명,70%
-배열 만들기 5,https://school.programmers.co.kr/learn/courses/30/lessons/181912,Lv.0,842명,81%
+배열 만들기 5,https://school.programmers.co.kr/learn/courses/30/lessons/181912,Lv.0,843명,82%
 부분 문자열 이어 붙여 문자열 만들기,https://school.programmers.co.kr/learn/courses/30/lessons/181911,Lv.0,1,105명,88%
-문자열의 뒤의 n글자,https://school.programmers.co.kr/learn/courses/30/lessons/181910,Lv.0,2,880명,89%
+문자열의 뒤의 n글자,https://school.programmers.co.kr/learn/courses/30/lessons/181910,Lv.0,2,881명,89%
 접미사 배열,https://school.programmers.co.kr/learn/courses/30/lessons/181909,Lv.0,1,046명,87%
 접미사인지 확인하기,https://school.programmers.co.kr/learn/courses/30/lessons/181908,Lv.0,1,174명,87%
-문자열의 앞의 n글자,https://school.programmers.co.kr/learn/courses/30/lessons/181907,Lv.0,2,984명,89%
+문자열의 앞의 n글자,https://school.programmers.co.kr/learn/courses/30/lessons/181907,Lv.0,2,985명,89%
 접두사인지 확인하기,https://school.programmers.co.kr/learn/courses/30/lessons/181906,Lv.0,1,357명,88%
 문자열 뒤집기,https://school.programmers.co.kr/learn/courses/30/lessons/181905,Lv.0,878명,81%
 세로 읽기,https://school.programmers.co.kr/learn/courses/30/lessons/181904,Lv.0,858명,81%
-qr code,https://school.programmers.co.kr/learn/courses/30/lessons/181903,Lv.0,833명,75%
+qr code,https://school.programmers.co.kr/learn/courses/30/lessons/181903,Lv.0,834명,75%
 문자 개수 세기,https://school.programmers.co.kr/learn/courses/30/lessons/181902,Lv.0,725명,75%
 배열 만들기 1,https://school.programmers.co.kr/learn/courses/30/lessons/181901,Lv.0,1,680명,89%
 글자 지우기,https://school.programmers.co.kr/learn/courses/30/lessons/181900,Lv.0,766명,79%
 카운트 다운,https://school.programmers.co.kr/learn/courses/30/lessons/181899,Lv.0,2,027명,89%
 가까운 1 찾기,https://school.programmers.co.kr/learn/courses/30/lessons/181898,Lv.0,911명,85%
 리스트 자르기,https://school.programmers.co.kr/learn/courses/30/lessons/181897,Lv.0,664명,76%
-첫 번째로 나오는 음수,https://school.programmers.co.kr/learn/courses/30/lessons/181896,Lv.0,1,914명,89%
+첫 번째로 나오는 음수,https://school.programmers.co.kr/learn/courses/30/lessons/181896,Lv.0,1,916명,89%
 배열 만들기 3,https://school.programmers.co.kr/learn/courses/30/lessons/181895,Lv.0,832명,84%
 2의 영역,https://school.programmers.co.kr/learn/courses/30/lessons/181894,Lv.0,688명,75%
 배열 조각하기,https://school.programmers.co.kr/learn/courses/30/lessons/181893,Lv.0,899명,48%
-n 번째 원소부터,https://school.programmers.co.kr/learn/courses/30/lessons/181892,Lv.0,1,949명,89%
+n 번째 원소부터,https://school.programmers.co.kr/learn/courses/30/lessons/181892,Lv.0,1,951명,89%
 순서 바꾸기,https://school.programmers.co.kr/learn/courses/30/lessons/181891,Lv.0,903명,85%
-왼쪽 오른쪽,https://school.programmers.co.kr/learn/courses/30/lessons/181890,Lv.0,589명,70%
+왼쪽 오른쪽,https://school.programmers.co.kr/learn/courses/30/lessons/181890,Lv.0,591명,70%
 n 번째 원소까지,https://school.programmers.co.kr/learn/courses/30/lessons/181889,Lv.0,2,565명,89%
-n개 간격의 원소들,https://school.programmers.co.kr/learn/courses/30/lessons/181888,Lv.0,1,302명,89%
-홀수 vs 짝수,https://school.programmers.co.kr/learn/courses/30/lessons/181887,Lv.0,1,233명,88%
+n개 간격의 원소들,https://school.programmers.co.kr/learn/courses/30/lessons/181888,Lv.0,1,303명,89%
+홀수 vs 짝수,https://school.programmers.co.kr/learn/courses/30/lessons/181887,Lv.0,1,234명,88%
 5명씩,https://school.programmers.co.kr/learn/courses/30/lessons/181886,Lv.0,1,004명,86%
-할 일 목록,https://school.programmers.co.kr/learn/courses/30/lessons/181885,Lv.0,967명,85%
-n보다 커질 때까지 더하기,https://school.programmers.co.kr/learn/courses/30/lessons/181884,Lv.0,1,978명,89%
+할 일 목록,https://school.programmers.co.kr/learn/courses/30/lessons/181885,Lv.0,968명,85%
+n보다 커질 때까지 더하기,https://school.programmers.co.kr/learn/courses/30/lessons/181884,Lv.0,1,979명,89%
 수열과 구간 쿼리 1,https://school.programmers.co.kr/learn/courses/30/lessons/181883,Lv.0,669명,81%
 조건에 맞게 수열 변환하기 1,https://school.programmers.co.kr/learn/courses/30/lessons/181882,Lv.0,1,383명,88%
 조건에 맞게 수열 변환하기 2,https://school.programmers.co.kr/learn/courses/30/lessons/181881,Lv.0,544명,78%
 1로 만들기,https://school.programmers.co.kr/learn/courses/30/lessons/181880,Lv.0,769명,81%
-길이에 따른 연산,https://school.programmers.co.kr/learn/courses/30/lessons/181879,Lv.0,2,330명,89%
-원하는 문자열 찾기,https://school.programmers.co.kr/learn/courses/30/lessons/181878,Lv.0,1,459명,89%
-대문자로 바꾸기,https://school.programmers.co.kr/learn/courses/30/lessons/181877,Lv.0,3,376명,89%
-소문자로 바꾸기,https://school.programmers.co.kr/learn/courses/30/lessons/181876,Lv.0,3,287명,89%
+길이에 따른 연산,https://school.programmers.co.kr/learn/courses/30/lessons/181879,Lv.0,2,333명,89%
+원하는 문자열 찾기,https://school.programmers.co.kr/learn/courses/30/lessons/181878,Lv.0,1,461명,89%
+대문자로 바꾸기,https://school.programmers.co.kr/learn/courses/30/lessons/181877,Lv.0,3,379명,89%
+소문자로 바꾸기,https://school.programmers.co.kr/learn/courses/30/lessons/181876,Lv.0,3,289명,90%
 배열에서 문자열 대소문자 변환하기,https://school.programmers.co.kr/learn/courses/30/lessons/181875,Lv.0,1,417명,89%
 A 강조하기,https://school.programmers.co.kr/learn/courses/30/lessons/181874,Lv.0,1,149명,87%
 특정한 문자를 대문자로 바꾸기,https://school.programmers.co.kr/learn/courses/30/lessons/181873,Lv.0,1,491명,88%
-특정 문자열로 끝나는 가장 긴 부분 문자열 찾기,https://school.programmers.co.kr/learn/courses/30/lessons/181872,Lv.0,618명,80%
+특정 문자열로 끝나는 가장 긴 부분 문자열 찾기,https://school.programmers.co.kr/learn/courses/30/lessons/181872,Lv.0,619명,81%
 문자열이 몇 번 등장하는지 세기,https://school.programmers.co.kr/learn/courses/30/lessons/181871,Lv.0,658명,78%
 ad 제거하기,https://school.programmers.co.kr/learn/courses/30/lessons/181870,Lv.0,911명,86%
 공백으로 구분하기 1,https://school.programmers.co.kr/learn/courses/30/lessons/181869,Lv.0,2,203명,89%
 공백으로 구분하기 2,https://school.programmers.co.kr/learn/courses/30/lessons/181868,Lv.0,979명,88%
-x 사이의 개수,https://school.programmers.co.kr/learn/courses/30/lessons/181867,Lv.0,782명,85%
+x 사이의 개수,https://school.programmers.co.kr/learn/courses/30/lessons/181867,Lv.0,783명,85%
 문자열 잘라서 정렬하기,https://school.programmers.co.kr/learn/courses/30/lessons/181866,Lv.0,707명,83%
 간단한 식 계산하기,https://school.programmers.co.kr/learn/courses/30/lessons/181865,Lv.0,933명,85%
 문자열 바꿔서 찾기,https://school.programmers.co.kr/learn/courses/30/lessons/181864,Lv.0,1,200명,88%
-rny_string,https://school.programmers.co.kr/learn/courses/30/lessons/181863,Lv.0,1,759명,89%
+rny_string,https://school.programmers.co.kr/learn/courses/30/lessons/181863,Lv.0,1,761명,89%
 세 개의 구분자,https://school.programmers.co.kr/learn/courses/30/lessons/181862,Lv.0,597명,79%
 배열의 원소만큼 추가하기,https://school.programmers.co.kr/learn/courses/30/lessons/181861,Lv.0,1,071명,88%
 빈 배열에 추가, 삭제하기,https://school.programmers.co.kr/learn/courses/30/lessons/181860,Lv.0,597명,78%
@@ -99,46 +99,46 @@ rny_string,https://school.programmers.co.kr/learn/courses/30/lessons/181863,Lv.0
 문자열 묶기,https://school.programmers.co.kr/learn/courses/30/lessons/181855,Lv.0,574명,78%
 배열의 길이에 따라 다른 연산하기,https://school.programmers.co.kr/learn/courses/30/lessons/181854,Lv.0,1,179명,87%
 뒤에서 5등까지,https://school.programmers.co.kr/learn/courses/30/lessons/181853,Lv.0,1,237명,89%
-뒤에서 5등 위로,https://school.programmers.co.kr/learn/courses/30/lessons/181852,Lv.0,1,542명,89%
+뒤에서 5등 위로,https://school.programmers.co.kr/learn/courses/30/lessons/181852,Lv.0,1,543명,89%
 전국 대회 선발 고사,https://school.programmers.co.kr/learn/courses/30/lessons/181851,Lv.0,532명,66%
 정수 부분,https://school.programmers.co.kr/learn/courses/30/lessons/181850,Lv.0,3,662명,89%
-문자열 정수의 합,https://school.programmers.co.kr/learn/courses/30/lessons/181849,Lv.0,1,996명,89%
+문자열 정수의 합,https://school.programmers.co.kr/learn/courses/30/lessons/181849,Lv.0,1,997명,89%
 문자열을 정수로 변환하기,https://school.programmers.co.kr/learn/courses/30/lessons/181848,Lv.0,3,559명,90%
 0 떼기,https://school.programmers.co.kr/learn/courses/30/lessons/181847,Lv.0,903명,87%
 두 수의 합,https://school.programmers.co.kr/learn/courses/30/lessons/181846,Lv.0,615명,73%
-문자열로 변환,https://school.programmers.co.kr/learn/courses/30/lessons/181845,Lv.0,3,418명,89%
-배열의 원소 삭제하기,https://school.programmers.co.kr/learn/courses/30/lessons/181844,Lv.0,805명,85%
-부분 문자열인지 확인하기,https://school.programmers.co.kr/learn/courses/30/lessons/181843,Lv.0,1,876명,89%
-부분 문자열,https://school.programmers.co.kr/learn/courses/30/lessons/181842,Lv.0,1,641명,89%
+문자열로 변환,https://school.programmers.co.kr/learn/courses/30/lessons/181845,Lv.0,3,420명,90%
+배열의 원소 삭제하기,https://school.programmers.co.kr/learn/courses/30/lessons/181844,Lv.0,806명,86%
+부분 문자열인지 확인하기,https://school.programmers.co.kr/learn/courses/30/lessons/181843,Lv.0,1,877명,89%
+부분 문자열,https://school.programmers.co.kr/learn/courses/30/lessons/181842,Lv.0,1,642명,89%
 꼬리 문자열,https://school.programmers.co.kr/learn/courses/30/lessons/181841,Lv.0,1,092명,88%
-정수 찾기,https://school.programmers.co.kr/learn/courses/30/lessons/181840,Lv.0,2,378명,89%
+정수 찾기,https://school.programmers.co.kr/learn/courses/30/lessons/181840,Lv.0,2,379명,89%
 주사위 게임 1,https://school.programmers.co.kr/learn/courses/30/lessons/181839,Lv.0,1,706명,89%
-날짜 비교하기,https://school.programmers.co.kr/learn/courses/30/lessons/181838,Lv.0,614명,79%
+날짜 비교하기,https://school.programmers.co.kr/learn/courses/30/lessons/181838,Lv.0,615명,79%
 커피 심부름,https://school.programmers.co.kr/learn/courses/30/lessons/181837,Lv.0,762명,75%
 그림 확대,https://school.programmers.co.kr/learn/courses/30/lessons/181836,Lv.0,488명,69%
-조건에 맞게 수열 변환하기 3,https://school.programmers.co.kr/learn/courses/30/lessons/181835,Lv.0,2,292명,89%
-l로 만들기,https://school.programmers.co.kr/learn/courses/30/lessons/181834,Lv.0,864명,86%
+조건에 맞게 수열 변환하기 3,https://school.programmers.co.kr/learn/courses/30/lessons/181835,Lv.0,2,293명,89%
+l로 만들기,https://school.programmers.co.kr/learn/courses/30/lessons/181834,Lv.0,865명,86%
 특별한 이차원 배열 1,https://school.programmers.co.kr/learn/courses/30/lessons/181833,Lv.0,751명,83%
-정수를 나선형으로 배치하기,https://school.programmers.co.kr/learn/courses/30/lessons/181832,Lv.0,499명,44%
+정수를 나선형으로 배치하기,https://school.programmers.co.kr/learn/courses/30/lessons/181832,Lv.0,500명,44%
 특별한 이차원 배열 2,https://school.programmers.co.kr/learn/courses/30/lessons/181831,Lv.0,748명,85%
 정사각형으로 만들기,https://school.programmers.co.kr/learn/courses/30/lessons/181830,Lv.0,468명,70%
-이차원 배열 대각선 순회하기,https://school.programmers.co.kr/learn/courses/30/lessons/181829,Lv.0,555명,79%
+이차원 배열 대각선 순회하기,https://school.programmers.co.kr/learn/courses/30/lessons/181829,Lv.0,556명,79%
 요격 시스템,https://school.programmers.co.kr/learn/courses/30/lessons/181188,Lv.2,1,931명,33%
 두 원 사이의 정수 쌍,https://school.programmers.co.kr/learn/courses/30/lessons/181187,Lv.2,1,067명,34%
 아방가르드 타일링,https://school.programmers.co.kr/learn/courses/30/lessons/181186,Lv.3,142명,6%
-달리기 경주,https://school.programmers.co.kr/learn/courses/30/lessons/178871,Lv.1,4,163명,39%
-연속된 부분 수열의 합,https://school.programmers.co.kr/learn/courses/30/lessons/178870,Lv.2,2,321명,48%
-추억 점수,https://school.programmers.co.kr/learn/courses/30/lessons/176963,Lv.1,5,939명,63%
+달리기 경주,https://school.programmers.co.kr/learn/courses/30/lessons/178871,Lv.1,4,164명,39%
+연속된 부분 수열의 합,https://school.programmers.co.kr/learn/courses/30/lessons/178870,Lv.2,2,322명,48%
+추억 점수,https://school.programmers.co.kr/learn/courses/30/lessons/176963,Lv.1,5,941명,63%
 과제 진행하기,https://school.programmers.co.kr/learn/courses/30/lessons/176962,Lv.2,1,446명,32%
-공원 산책,https://school.programmers.co.kr/learn/courses/30/lessons/172928,Lv.1,3,256명,34%
+공원 산책,https://school.programmers.co.kr/learn/courses/30/lessons/172928,Lv.1,3,257명,34%
 광물 캐기,https://school.programmers.co.kr/learn/courses/30/lessons/172927,Lv.2,1,659명,37%
 리코쳇 로봇,https://school.programmers.co.kr/learn/courses/30/lessons/169199,Lv.2,1,353명,35%
 당구 연습,https://school.programmers.co.kr/learn/courses/30/lessons/169198,Lv.2,908명,17%
-조건에 부합하는 중고거래 댓글 조회하기,https://school.programmers.co.kr/learn/courses/30/lessons/164673,Lv.1,4,525명,56%
+조건에 부합하는 중고거래 댓글 조회하기,https://school.programmers.co.kr/learn/courses/30/lessons/164673,Lv.1,4,528명,56%
 조건에 부합하는 중고거래 상태 조회하기,https://school.programmers.co.kr/learn/courses/30/lessons/164672,Lv.2,2,733명,71%
 조회수가 가장 많은 중고거래 게시판의 첨부파일 조회하기,https://school.programmers.co.kr/learn/courses/30/lessons/164671,Lv.3,1,877명,64%
 조건에 맞는 사용자 정보 조회하기,https://school.programmers.co.kr/learn/courses/30/lessons/164670,Lv.3,1,827명,73%
-조건에 맞는 사용자와 총 거래금액 조회하기,https://school.programmers.co.kr/learn/courses/30/lessons/164668,Lv.3,2,398명,81%
+조건에 맞는 사용자와 총 거래금액 조회하기,https://school.programmers.co.kr/learn/courses/30/lessons/164668,Lv.3,2,399명,81%
 바탕화면 정리,https://school.programmers.co.kr/learn/courses/30/lessons/161990,Lv.1,4,298명,38%
 덧칠하기,https://school.programmers.co.kr/learn/courses/30/lessons/161989,Lv.1,4,734명,57%
 연속 펄스 부분 수열의 합,https://school.programmers.co.kr/learn/courses/30/lessons/161988,Lv.3,1,285명,38%
@@ -172,13 +172,13 @@ l로 만들기,https://school.programmers.co.kr/learn/courses/30/lessons/181834,
 1,2,3 떨어트리기,https://school.programmers.co.kr/learn/courses/30/lessons/150364,Lv.4,202명,4%
 마법의 엘리베이터,https://school.programmers.co.kr/learn/courses/30/lessons/148653,Lv.2,2,666명,42%
 유사 칸토어 비트열,https://school.programmers.co.kr/learn/courses/30/lessons/148652,Lv.2,723명,19%
-크기가 작은 부분 문자열,https://school.programmers.co.kr/learn/courses/30/lessons/147355,Lv.1,10,121명,69%
+크기가 작은 부분 문자열,https://school.programmers.co.kr/learn/courses/30/lessons/147355,Lv.1,10,122명,69%
 테이블 해시 함수,https://school.programmers.co.kr/learn/courses/30/lessons/147354,Lv.2,1,806명,39%
 저자 별 카테고리 별 매출액 집계하기,https://school.programmers.co.kr/learn/courses/30/lessons/144856,Lv.4,3,148명,68%
 카테고리 별 도서 판매량 집계하기,https://school.programmers.co.kr/learn/courses/30/lessons/144855,Lv.3,4,938명,83%
 조건에 맞는 도서와 저자 리스트 출력하기,https://school.programmers.co.kr/learn/courses/30/lessons/144854,Lv.2,7,402명,82%
 조건에 맞는 도서 리스트 출력하기,https://school.programmers.co.kr/learn/courses/30/lessons/144853,Lv.1,7,610명,80%
-가장 가까운 같은 글자,https://school.programmers.co.kr/learn/courses/30/lessons/142086,Lv.1,9,423명,65%
+가장 가까운 같은 글자,https://school.programmers.co.kr/learn/courses/30/lessons/142086,Lv.1,9,424명,65%
 디펜스 게임,https://school.programmers.co.kr/learn/courses/30/lessons/142085,Lv.2,2,336명,36%
 문자열 나누기,https://school.programmers.co.kr/learn/courses/30/lessons/140108,Lv.1,6,894명,51%
 점 찍기,https://school.programmers.co.kr/learn/courses/30/lessons/140107,Lv.2,2,560명,43%
@@ -188,20 +188,20 @@ l로 만들기,https://school.programmers.co.kr/learn/courses/30/lessons/181834,
 억억단을 외우자,https://school.programmers.co.kr/learn/courses/30/lessons/138475,Lv.3,637명,17%
 기사단원의 무기,https://school.programmers.co.kr/learn/courses/30/lessons/136798,Lv.1,6,991명,56%
 숫자 타자 대회,https://school.programmers.co.kr/learn/courses/30/lessons/136797,Lv.3,452명,13%
-과일 장수,https://school.programmers.co.kr/learn/courses/30/lessons/135808,Lv.1,8,227명,60%
+과일 장수,https://school.programmers.co.kr/learn/courses/30/lessons/135808,Lv.1,8,228명,60%
 숫자 카드 나누기,https://school.programmers.co.kr/learn/courses/30/lessons/135807,Lv.2,2,445명,41%
 푸드 파이트 대회,https://school.programmers.co.kr/learn/courses/30/lessons/134240,Lv.1,9,333명,65%
 우박수열 정적분,https://school.programmers.co.kr/learn/courses/30/lessons/134239,Lv.2,1,601명,35%
 햄버거 만들기,https://school.programmers.co.kr/learn/courses/30/lessons/133502,Lv.1,7,083명,46%
 등대,https://school.programmers.co.kr/learn/courses/30/lessons/133500,Lv.3,443명,13%
 옹알이 (2),https://school.programmers.co.kr/learn/courses/30/lessons/133499,Lv.1,5,592명,54%
-주문량이 많은 아이스크림들 조회하기,https://school.programmers.co.kr/learn/courses/30/lessons/133027,Lv.4,4,795명,68%
+주문량이 많은 아이스크림들 조회하기,https://school.programmers.co.kr/learn/courses/30/lessons/133027,Lv.4,4,796명,68%
 성분으로 구분한 아이스크림 총 주문량,https://school.programmers.co.kr/learn/courses/30/lessons/133026,Lv.2,7,382명,82%
 과일로 만든 아이스크림 고르기,https://school.programmers.co.kr/learn/courses/30/lessons/133025,Lv.1,10,436명,76%
 인기있는 아이스크림,https://school.programmers.co.kr/learn/courses/30/lessons/133024,Lv.1,9,579명,87%
-콜라 문제,https://school.programmers.co.kr/learn/courses/30/lessons/132267,Lv.1,9,452명,65%
+콜라 문제,https://school.programmers.co.kr/learn/courses/30/lessons/132267,Lv.1,9,453명,65%
 부대복귀,https://school.programmers.co.kr/learn/courses/30/lessons/132266,Lv.3,1,186명,35%
-롤케이크 자르기,https://school.programmers.co.kr/learn/courses/30/lessons/132265,Lv.2,3,399명,51%
+롤케이크 자르기,https://school.programmers.co.kr/learn/courses/30/lessons/132265,Lv.2,3,400명,51%
 취소되지 않은 진료 예약 조회하기,https://school.programmers.co.kr/learn/courses/30/lessons/132204,Lv.4,3,504명,69%
 흉부외과 또는 일반외과 의사 목록 출력하기,https://school.programmers.co.kr/learn/courses/30/lessons/132203,Lv.1,9,622명,88%
 진료과별 총 예약 횟수 출력하기,https://school.programmers.co.kr/learn/courses/30/lessons/132202,Lv.2,8,121명,86%
@@ -214,7 +214,7 @@ l로 만들기,https://school.programmers.co.kr/learn/courses/30/lessons/181834,
 가장 비싼 상품 구하기,https://school.programmers.co.kr/learn/courses/30/lessons/131697,Lv.1,11,285명,90%
 오프라인/온라인 판매 데이터 통합하기,https://school.programmers.co.kr/learn/courses/30/lessons/131537,Lv.4,6,771명,58%
 재구매가 일어난 상품과 회원 리스트 구하기,https://school.programmers.co.kr/learn/courses/30/lessons/131536,Lv.2,9,352명,77%
-조건에 맞는 회원수 구하기,https://school.programmers.co.kr/learn/courses/30/lessons/131535,Lv.1,11,192명,89%
+조건에 맞는 회원수 구하기,https://school.programmers.co.kr/learn/courses/30/lessons/131535,Lv.1,11,193명,89%
 상품을 구매한 회원 비율 구하기,https://school.programmers.co.kr/learn/courses/30/lessons/131534,Lv.5,3,274명,39%
 상품 별 오프라인 매출 구하기,https://school.programmers.co.kr/learn/courses/30/lessons/131533,Lv.2,8,137명,84%
 년, 월, 성별 별 상품 구매 회원 수 구하기,https://school.programmers.co.kr/learn/courses/30/lessons/131532,Lv.4,4,648명,70%
@@ -224,10 +224,10 @@ l로 만들기,https://school.programmers.co.kr/learn/courses/30/lessons/181834,
 혼자 놀기의 달인,https://school.programmers.co.kr/learn/courses/30/lessons/131130,Lv.2,2,036명,40%
 카운트 다운,https://school.programmers.co.kr/learn/courses/30/lessons/131129,Lv.3,396명,19%
 숫자 짝꿍,https://school.programmers.co.kr/learn/courses/30/lessons/131128,Lv.1,6,275명,55%
-할인 행사,https://school.programmers.co.kr/learn/courses/30/lessons/131127,Lv.2,4,251명,60%
+할인 행사,https://school.programmers.co.kr/learn/courses/30/lessons/131127,Lv.2,4,252명,60%
 그룹별 조건에 맞는 식당 목록 출력하기,https://school.programmers.co.kr/learn/courses/30/lessons/131124,Lv.4,4,840명,61%
 즐겨찾기가 가장 많은 식당 정보 출력하기,https://school.programmers.co.kr/learn/courses/30/lessons/131123,Lv.3,6,688명,79%
-3월에 태어난 여성 회원 목록 출력하기,https://school.programmers.co.kr/learn/courses/30/lessons/131120,Lv.2,11,213명,80%
+3월에 태어난 여성 회원 목록 출력하기,https://school.programmers.co.kr/learn/courses/30/lessons/131120,Lv.2,11,215명,80%
 서울에 위치한 식당 목록 출력하기,https://school.programmers.co.kr/learn/courses/30/lessons/131118,Lv.4,6,486명,71%
 5월 식품들의 총매출 조회하기,https://school.programmers.co.kr/learn/courses/30/lessons/131117,Lv.4,5,245명,78%
 식품분류별 가장 비싼 식품의 정보 조회하기,https://school.programmers.co.kr/learn/courses/30/lessons/131116,Lv.4,5,304명,78%
@@ -235,11 +235,11 @@ l로 만들기,https://school.programmers.co.kr/learn/courses/30/lessons/181834,
 경기도에 위치한 식품창고 목록 출력하기,https://school.programmers.co.kr/learn/courses/30/lessons/131114,Lv.1,8,891명,90%
 조건별로 분류하여 주문상태 출력하기,https://school.programmers.co.kr/learn/courses/30/lessons/131113,Lv.3,4,952명,82%
 강원도에 위치한 생산공장 목록 출력하기,https://school.programmers.co.kr/learn/courses/30/lessons/131112,Lv.1,10,629명,91%
-옹알이 (1),https://school.programmers.co.kr/learn/courses/30/lessons/120956,Lv.0,12,364명,30%
+옹알이 (1),https://school.programmers.co.kr/learn/courses/30/lessons/120956,Lv.0,12,365명,30%
 다음에 올 숫자,https://school.programmers.co.kr/learn/courses/30/lessons/120924,Lv.0,11,066명,58%
 연속된 수의 합,https://school.programmers.co.kr/learn/courses/30/lessons/120923,Lv.0,8,816명,58%
 종이 자르기,https://school.programmers.co.kr/learn/courses/30/lessons/120922,Lv.0,10,224명,74%
-문자열 밀기,https://school.programmers.co.kr/learn/courses/30/lessons/120921,Lv.0,7,938명,70%
+문자열 밀기,https://school.programmers.co.kr/learn/courses/30/lessons/120921,Lv.0,7,939명,70%
 잘라서 배열로 저장하기,https://school.programmers.co.kr/learn/courses/30/lessons/120913,Lv.0,9,293명,79%
 7의 개수,https://school.programmers.co.kr/learn/courses/30/lessons/120912,Lv.0,10,965명,80%
 문자열 정렬하기 (2),https://school.programmers.co.kr/learn/courses/30/lessons/120911,Lv.0,11,660명,85%
@@ -250,7 +250,7 @@ OX퀴즈,https://school.programmers.co.kr/learn/courses/30/lessons/120907,Lv.0,7
 자릿수 더하기,https://school.programmers.co.kr/learn/courses/30/lessons/120906,Lv.0,15,911명,89%
 n의 배수 고르기,https://school.programmers.co.kr/learn/courses/30/lessons/120905,Lv.0,13,169명,88%
 숫자 찾기,https://school.programmers.co.kr/learn/courses/30/lessons/120904,Lv.0,11,197명,86%
-배열의 유사도,https://school.programmers.co.kr/learn/courses/30/lessons/120903,Lv.0,15,129명,89%
+배열의 유사도,https://school.programmers.co.kr/learn/courses/30/lessons/120903,Lv.0,15,130명,89%
 문자열 계산하기,https://school.programmers.co.kr/learn/courses/30/lessons/120902,Lv.0,8,120명,79%
 가장 큰 수 찾기,https://school.programmers.co.kr/learn/courses/30/lessons/120899,Lv.0,12,738명,87%
 편지,https://school.programmers.co.kr/learn/courses/30/lessons/120898,Lv.0,17,813명,89%
@@ -258,8 +258,8 @@ n의 배수 고르기,https://school.programmers.co.kr/learn/courses/30/lessons/
 한 번만 등장한 문자,https://school.programmers.co.kr/learn/courses/30/lessons/120896,Lv.0,8,701명,82%
 인덱스 바꾸기,https://school.programmers.co.kr/learn/courses/30/lessons/120895,Lv.0,10,971명,87%
 영어가 싫어요,https://school.programmers.co.kr/learn/courses/30/lessons/120894,Lv.0,8,509명,79%
-대문자와 소문자,https://school.programmers.co.kr/learn/courses/30/lessons/120893,Lv.0,12,322명,88%
-암호 해독,https://school.programmers.co.kr/learn/courses/30/lessons/120892,Lv.0,12,132명,88%
+대문자와 소문자,https://school.programmers.co.kr/learn/courses/30/lessons/120893,Lv.0,12,324명,88%
+암호 해독,https://school.programmers.co.kr/learn/courses/30/lessons/120892,Lv.0,12,133명,88%
 369게임,https://school.programmers.co.kr/learn/courses/30/lessons/120891,Lv.0,11,535명,86%
 가까운 수,https://school.programmers.co.kr/learn/courses/30/lessons/120890,Lv.0,8,786명,83%
 삼각형의 완성조건 (1),https://school.programmers.co.kr/learn/courses/30/lessons/120889,Lv.0,16,303명,89%
@@ -282,22 +282,22 @@ A로 B 만들기,https://school.programmers.co.kr/learn/courses/30/lessons/12088
 다항식 더하기,https://school.programmers.co.kr/learn/courses/30/lessons/120863,Lv.0,5,523명,68%
 최댓값 만들기 (2),https://school.programmers.co.kr/learn/courses/30/lessons/120862,Lv.0,10,166명,88%
 캐릭터의 좌표,https://school.programmers.co.kr/learn/courses/30/lessons/120861,Lv.0,6,815명,74%
-직사각형 넓이 구하기,https://school.programmers.co.kr/learn/courses/30/lessons/120860,Lv.0,6,686명,74%
+직사각형 넓이 구하기,https://school.programmers.co.kr/learn/courses/30/lessons/120860,Lv.0,6,687명,74%
 배열 원소의 길이,https://school.programmers.co.kr/learn/courses/30/lessons/120854,Lv.0,18,729명,89%
-컨트롤 제트,https://school.programmers.co.kr/learn/courses/30/lessons/120853,Lv.0,7,837명,81%
+컨트롤 제트,https://school.programmers.co.kr/learn/courses/30/lessons/120853,Lv.0,7,838명,81%
 소인수분해,https://school.programmers.co.kr/learn/courses/30/lessons/120852,Lv.0,7,412명,80%
 숨어있는 숫자의 덧셈 (1),https://school.programmers.co.kr/learn/courses/30/lessons/120851,Lv.0,13,020명,89%
 문자열 정렬하기 (1),https://school.programmers.co.kr/learn/courses/30/lessons/120850,Lv.0,11,887명,88%
-모음 제거,https://school.programmers.co.kr/learn/courses/30/lessons/120849,Lv.0,13,663명,89%
+모음 제거,https://school.programmers.co.kr/learn/courses/30/lessons/120849,Lv.0,13,664명,89%
 팩토리얼,https://school.programmers.co.kr/learn/courses/30/lessons/120848,Lv.0,9,624명,84%
-최댓값 만들기(1),https://school.programmers.co.kr/learn/courses/30/lessons/120847,Lv.0,17,148명,89%
+최댓값 만들기(1),https://school.programmers.co.kr/learn/courses/30/lessons/120847,Lv.0,17,149명,89%
 합성수 찾기,https://school.programmers.co.kr/learn/courses/30/lessons/120846,Lv.0,9,459명,85%
-주사위의 개수,https://school.programmers.co.kr/learn/courses/30/lessons/120845,Lv.0,11,450명,88%
+주사위의 개수,https://school.programmers.co.kr/learn/courses/30/lessons/120845,Lv.0,11,451명,88%
 배열 회전시키기,https://school.programmers.co.kr/learn/courses/30/lessons/120844,Lv.0,11,027명,87%
 공 던지기,https://school.programmers.co.kr/learn/courses/30/lessons/120843,Lv.0,8,340명,80%
 2차원으로 만들기,https://school.programmers.co.kr/learn/courses/30/lessons/120842,Lv.0,9,480명,84%
-점의 위치 구하기,https://school.programmers.co.kr/learn/courses/30/lessons/120841,Lv.0,19,052명,89%
-구슬을 나누는 경우의 수,https://school.programmers.co.kr/learn/courses/30/lessons/120840,Lv.0,7,851명,78%
+점의 위치 구하기,https://school.programmers.co.kr/learn/courses/30/lessons/120841,Lv.0,19,054명,89%
+구슬을 나누는 경우의 수,https://school.programmers.co.kr/learn/courses/30/lessons/120840,Lv.0,7,852명,78%
 가위 바위 보,https://school.programmers.co.kr/learn/courses/30/lessons/120839,Lv.0,12,901명,88%
 모스부호 (1),https://school.programmers.co.kr/learn/courses/30/lessons/120838,Lv.0,9,991명,85%
 개미 군단,https://school.programmers.co.kr/learn/courses/30/lessons/120837,Lv.0,13,948명,88%
@@ -307,33 +307,33 @@ A로 B 만들기,https://school.programmers.co.kr/learn/courses/30/lessons/12088
 배열 자르기,https://school.programmers.co.kr/learn/courses/30/lessons/120833,Lv.0,18,259명,89%
 짝수의 합,https://school.programmers.co.kr/learn/courses/30/lessons/120831,Lv.0,26,238명,90%
 양꼬치,https://school.programmers.co.kr/learn/courses/30/lessons/120830,Lv.0,25,094명,90%
-각도기,https://school.programmers.co.kr/learn/courses/30/lessons/120829,Lv.0,28,055명,90%
-특정 문자 제거하기,https://school.programmers.co.kr/learn/courses/30/lessons/120826,Lv.0,17,232명,89%
-문자 반복 출력하기,https://school.programmers.co.kr/learn/courses/30/lessons/120825,Lv.0,16,447명,89%
+각도기,https://school.programmers.co.kr/learn/courses/30/lessons/120829,Lv.0,28,056명,90%
+특정 문자 제거하기,https://school.programmers.co.kr/learn/courses/30/lessons/120826,Lv.0,17,233명,89%
+문자 반복 출력하기,https://school.programmers.co.kr/learn/courses/30/lessons/120825,Lv.0,16,449명,89%
 짝수 홀수 개수,https://school.programmers.co.kr/learn/courses/30/lessons/120824,Lv.0,20,064명,89%
-직각삼각형 출력하기,https://school.programmers.co.kr/learn/courses/30/lessons/120823,Lv.0,12,789명,88%
-문자열 뒤집기,https://school.programmers.co.kr/learn/courses/30/lessons/120822,Lv.0,19,829명,89%
+직각삼각형 출력하기,https://school.programmers.co.kr/learn/courses/30/lessons/120823,Lv.0,12,790명,88%
+문자열 뒤집기,https://school.programmers.co.kr/learn/courses/30/lessons/120822,Lv.0,19,831명,89%
 배열 뒤집기,https://school.programmers.co.kr/learn/courses/30/lessons/120821,Lv.0,21,134명,89%
-나이 출력,https://school.programmers.co.kr/learn/courses/30/lessons/120820,Lv.0,32,087명,92%
-아이스 아메리카노,https://school.programmers.co.kr/learn/courses/30/lessons/120819,Lv.0,19,647명,89%
+나이 출력,https://school.programmers.co.kr/learn/courses/30/lessons/120820,Lv.0,32,088명,92%
+아이스 아메리카노,https://school.programmers.co.kr/learn/courses/30/lessons/120819,Lv.0,19,648명,89%
 옷가게 할인 받기,https://school.programmers.co.kr/learn/courses/30/lessons/120818,Lv.0,17,013명,89%
-배열의 평균값,https://school.programmers.co.kr/learn/courses/30/lessons/120817,Lv.0,26,322명,90%
+배열의 평균값,https://school.programmers.co.kr/learn/courses/30/lessons/120817,Lv.0,26,325명,90%
 피자 나눠 먹기 (3),https://school.programmers.co.kr/learn/courses/30/lessons/120816,Lv.0,19,912명,89%
 피자 나눠 먹기 (2),https://school.programmers.co.kr/learn/courses/30/lessons/120815,Lv.0,13,321명,87%
 피자 나눠 먹기 (1),https://school.programmers.co.kr/learn/courses/30/lessons/120814,Lv.0,22,067명,89%
 짝수는 싫어요,https://school.programmers.co.kr/learn/courses/30/lessons/120813,Lv.0,18,708명,89%
-최빈값 구하기,https://school.programmers.co.kr/learn/courses/30/lessons/120812,Lv.0,11,053명,66%
+최빈값 구하기,https://school.programmers.co.kr/learn/courses/30/lessons/120812,Lv.0,11,054명,66%
 중앙값 구하기,https://school.programmers.co.kr/learn/courses/30/lessons/120811,Lv.0,19,609명,89%
-나머지 구하기,https://school.programmers.co.kr/learn/courses/30/lessons/120810,Lv.0,34,500명,92%
+나머지 구하기,https://school.programmers.co.kr/learn/courses/30/lessons/120810,Lv.0,34,502명,92%
 배열 두 배 만들기,https://school.programmers.co.kr/learn/courses/30/lessons/120809,Lv.0,23,907명,89%
-분수의 덧셈,https://school.programmers.co.kr/learn/courses/30/lessons/120808,Lv.0,15,152명,59%
-숫자 비교하기,https://school.programmers.co.kr/learn/courses/30/lessons/120807,Lv.0,36,061명,92%
-두 수의 나눗셈,https://school.programmers.co.kr/learn/courses/30/lessons/120806,Lv.0,31,575명,90%
+분수의 덧셈,https://school.programmers.co.kr/learn/courses/30/lessons/120808,Lv.0,15,153명,59%
+숫자 비교하기,https://school.programmers.co.kr/learn/courses/30/lessons/120807,Lv.0,36,062명,92%
+두 수의 나눗셈,https://school.programmers.co.kr/learn/courses/30/lessons/120806,Lv.0,31,576명,90%
 몫 구하기,https://school.programmers.co.kr/learn/courses/30/lessons/120805,Lv.0,38,355명,92%
-두 수의 곱,https://school.programmers.co.kr/learn/courses/30/lessons/120804,Lv.0,39,546명,92%
+두 수의 곱,https://school.programmers.co.kr/learn/courses/30/lessons/120804,Lv.0,39,547명,92%
 두 수의 차,https://school.programmers.co.kr/learn/courses/30/lessons/120803,Lv.0,39,512명,92%
 두 수의 합,https://school.programmers.co.kr/learn/courses/30/lessons/120802,Lv.0,37,517명,92%
-머쓱이보다 키 큰 사람,https://school.programmers.co.kr/learn/courses/30/lessons/120585,Lv.0,21,370명,89%
+머쓱이보다 키 큰 사람,https://school.programmers.co.kr/learn/courses/30/lessons/120585,Lv.0,21,371명,89%
 중복된 숫자 개수,https://school.programmers.co.kr/learn/courses/30/lessons/120583,Lv.0,21,794명,89%
 행렬과 연산,https://school.programmers.co.kr/learn/courses/30/lessons/118670,Lv.4,501명,9%
 등산코스 정하기,https://school.programmers.co.kr/learn/courses/30/lessons/118669,Lv.3,1,640명,24%
@@ -352,7 +352,7 @@ k진수에서 소수 개수 구하기,https://school.programmers.co.kr/learn/cou
 쿼리의 모음의 개수,https://school.programmers.co.kr/learn/courses/30/lessons/87394,Lv.5,15명,0%
 공 이동 시뮬레이션,https://school.programmers.co.kr/learn/courses/30/lessons/87391,Lv.3,563명,19%
 n^2 배열 자르기,https://school.programmers.co.kr/learn/courses/30/lessons/87390,Lv.2,7,410명,62%
-나머지가 1이 되는 수 찾기,https://school.programmers.co.kr/learn/courses/30/lessons/87389,Lv.1,30,765명,87%
+나머지가 1이 되는 수 찾기,https://school.programmers.co.kr/learn/courses/30/lessons/87389,Lv.1,30,766명,87%
 교점에 별 만들기,https://school.programmers.co.kr/learn/courses/30/lessons/87377,Lv.2,3,031명,29%
 전력망을 둘로 나누기,https://school.programmers.co.kr/learn/courses/30/lessons/86971,Lv.2,7,012명,45%
 최소직사각형,https://school.programmers.co.kr/learn/courses/30/lessons/86491,Lv.1,27,120명,71%
@@ -362,7 +362,7 @@ n^2 배열 자르기,https://school.programmers.co.kr/learn/courses/30/lessons/8
 없는 숫자 더하기,https://school.programmers.co.kr/learn/courses/30/lessons/86051,Lv.1,37,811명,84%
 모음사전,https://school.programmers.co.kr/learn/courses/30/lessons/84512,Lv.2,10,478명,56%
 퍼즐 조각 채우기,https://school.programmers.co.kr/learn/courses/30/lessons/84021,Lv.3,2,072명,14%
-부족한 금액 계산하기,https://school.programmers.co.kr/learn/courses/30/lessons/82612,Lv.1,33,012명,80%
+부족한 금액 계산하기,https://school.programmers.co.kr/learn/courses/30/lessons/82612,Lv.1,33,013명,80%
 시험장 나누기,https://school.programmers.co.kr/learn/courses/30/lessons/81305,Lv.5,379명,3%
 미로 탈출,https://school.programmers.co.kr/learn/courses/30/lessons/81304,Lv.4,707명,9%
 표 편집,https://school.programmers.co.kr/learn/courses/30/lessons/81303,Lv.3,3,614명,36%
@@ -371,34 +371,34 @@ n^2 배열 자르기,https://school.programmers.co.kr/learn/courses/30/lessons/8
 중력 작용,https://school.programmers.co.kr/learn/courses/30/lessons/77887,Lv.5,18명,0%
 110 옮기기,https://school.programmers.co.kr/learn/courses/30/lessons/77886,Lv.3,1,128명,28%
 2개 이하로 다른 비트,https://school.programmers.co.kr/learn/courses/30/lessons/77885,Lv.2,5,331명,52%
-약수의 개수와 덧셈,https://school.programmers.co.kr/learn/courses/30/lessons/77884,Lv.1,28,585명,81%
+약수의 개수와 덧셈,https://school.programmers.co.kr/learn/courses/30/lessons/77884,Lv.1,28,586명,81%
 헤비 유저가 소유한 장소,https://school.programmers.co.kr/learn/courses/30/lessons/77487,Lv.3,11,110명,70%
 다단계 칫솔 판매,https://school.programmers.co.kr/learn/courses/30/lessons/77486,Lv.3,5,084명,39%
 행렬 테두리 회전하기,https://school.programmers.co.kr/learn/courses/30/lessons/77485,Lv.2,10,103명,46%
 로또의 최고 순위와 최저 순위,https://school.programmers.co.kr/learn/courses/30/lessons/77484,Lv.1,38,073명,56%
 RPG와 쿼리,https://school.programmers.co.kr/learn/courses/30/lessons/76504,Lv.5,29명,0%
 모두 0으로 만들기,https://school.programmers.co.kr/learn/courses/30/lessons/76503,Lv.3,1,504명,24%
-괄호 회전하기,https://school.programmers.co.kr/learn/courses/30/lessons/76502,Lv.2,10,971명,63%
+괄호 회전하기,https://school.programmers.co.kr/learn/courses/30/lessons/76502,Lv.2,10,972명,63%
 음양 더하기,https://school.programmers.co.kr/learn/courses/30/lessons/76501,Lv.1,39,755명,84%
 매출 하락 최소화,https://school.programmers.co.kr/learn/courses/30/lessons/72416,Lv.4,821명,11%
 카드 짝 맞추기,https://school.programmers.co.kr/learn/courses/30/lessons/72415,Lv.3,1,685명,19%
 광고 삽입,https://school.programmers.co.kr/learn/courses/30/lessons/72414,Lv.3,3,469명,33%
 합승 택시 요금,https://school.programmers.co.kr/learn/courses/30/lessons/72413,Lv.3,6,336명,43%
 순위 검색,https://school.programmers.co.kr/learn/courses/30/lessons/72412,Lv.2,7,361명,33%
-메뉴 리뉴얼,https://school.programmers.co.kr/learn/courses/30/lessons/72411,Lv.2,13,017명,48%
+메뉴 리뉴얼,https://school.programmers.co.kr/learn/courses/30/lessons/72411,Lv.2,13,019명,48%
 신규 아이디 추천,https://school.programmers.co.kr/learn/courses/30/lessons/72410,Lv.1,34,838명,49%
 가짜 해밀토니안,https://school.programmers.co.kr/learn/courses/30/lessons/70132,Lv.5,49명,1%
 스타 수열,https://school.programmers.co.kr/learn/courses/30/lessons/70130,Lv.3,1,294명,27%
 이진 변환 반복하기,https://school.programmers.co.kr/learn/courses/30/lessons/70129,Lv.2,16,957명,76%
-내적,https://school.programmers.co.kr/learn/courses/30/lessons/70128,Lv.1,39,538명,82%
+내적,https://school.programmers.co.kr/learn/courses/30/lessons/70128,Lv.1,39,540명,82%
 문자열의 아름다움,https://school.programmers.co.kr/learn/courses/30/lessons/68938,Lv.5,118명,2%
 트리 트리오 중간값,https://school.programmers.co.kr/learn/courses/30/lessons/68937,Lv.4,347명,15%
 쿼드압축 후 개수 세기,https://school.programmers.co.kr/learn/courses/30/lessons/68936,Lv.2,6,047명,50%
 3진법 뒤집기,https://school.programmers.co.kr/learn/courses/30/lessons/68935,Lv.1,28,105명,74%
 짝수 행 세기,https://school.programmers.co.kr/learn/courses/30/lessons/68647,Lv.4,191명,5%
 풍선 터트리기,https://school.programmers.co.kr/learn/courses/30/lessons/68646,Lv.3,3,254명,38%
-삼각 달팽이,https://school.programmers.co.kr/learn/courses/30/lessons/68645,Lv.2,9,273명,49%
-두 개 뽑아서 더하기,https://school.programmers.co.kr/learn/courses/30/lessons/68644,Lv.1,38,710명,67%
+삼각 달팽이,https://school.programmers.co.kr/learn/courses/30/lessons/68645,Lv.2,9,274명,49%
+두 개 뽑아서 더하기,https://school.programmers.co.kr/learn/courses/30/lessons/68644,Lv.1,38,711명,67%
 동굴 탐험,https://school.programmers.co.kr/learn/courses/30/lessons/67260,Lv.4,1,276명,18%
 경주로 건설,https://school.programmers.co.kr/learn/courses/30/lessons/67259,Lv.3,4,709명,43%
 보석 쇼핑,https://school.programmers.co.kr/learn/courses/30/lessons/67258,Lv.3,6,984명,48%
@@ -409,7 +409,7 @@ RPG와 쿼리,https://school.programmers.co.kr/learn/courses/30/lessons/76504,Lv
 호텔 방 배정,https://school.programmers.co.kr/learn/courses/30/lessons/64063,Lv.4,3,461명,34%
 징검다리 건너기,https://school.programmers.co.kr/learn/courses/30/lessons/64062,Lv.3,5,788명,46%
 크레인 인형뽑기 게임,https://school.programmers.co.kr/learn/courses/30/lessons/64061,Lv.1,36,896명,50%
-우유와 요거트가 담긴 장바구니,https://school.programmers.co.kr/learn/courses/30/lessons/62284,Lv.4,12,674명,70%
+우유와 요거트가 담긴 장바구니,https://school.programmers.co.kr/learn/courses/30/lessons/62284,Lv.4,12,675명,70%
 지형 이동,https://school.programmers.co.kr/learn/courses/30/lessons/62050,Lv.4,1,147명,14%
 멀쩡한 사각형,https://school.programmers.co.kr/learn/courses/30/lessons/62048,Lv.2,16,953명,43%
 블록 이동하기,https://school.programmers.co.kr/learn/courses/30/lessons/60063,Lv.3,3,286명,25%
@@ -444,7 +444,7 @@ NULL 처리하기,https://school.programmers.co.kr/learn/courses/30/lessons/5941
 최솟값 구하기,https://school.programmers.co.kr/learn/courses/30/lessons/59038,Lv.2,54,871명,91%
 어린 동물 찾기,https://school.programmers.co.kr/learn/courses/30/lessons/59037,Lv.1,58,077명,91%
 아픈 동물 찾기,https://school.programmers.co.kr/learn/courses/30/lessons/59036,Lv.1,60,761명,91%
-역순 정렬하기,https://school.programmers.co.kr/learn/courses/30/lessons/59035,Lv.1,62,341명,91%
+역순 정렬하기,https://school.programmers.co.kr/learn/courses/30/lessons/59035,Lv.1,62,342명,91%
 모든 레코드 조회하기,https://school.programmers.co.kr/learn/courses/30/lessons/59034,Lv.1,67,992명,81%
 쿠키 구입,https://school.programmers.co.kr/learn/courses/30/lessons/49995,Lv.4,1,405명,28%
 방문 길이,https://school.programmers.co.kr/learn/courses/30/lessons/49994,Lv.2,9,286명,56%
@@ -469,14 +469,14 @@ N으로 표현,https://school.programmers.co.kr/learn/courses/30/lessons/42895,L
 후보키,https://school.programmers.co.kr/learn/courses/30/lessons/42890,Lv.2,8,350명,40%
 실패율,https://school.programmers.co.kr/learn/courses/30/lessons/42889,Lv.1,29,436명,59%
 오픈채팅방,https://school.programmers.co.kr/learn/courses/30/lessons/42888,Lv.2,27,317명,57%
-구명보트,https://school.programmers.co.kr/learn/courses/30/lessons/42885,Lv.2,23,999명,68%
+구명보트,https://school.programmers.co.kr/learn/courses/30/lessons/42885,Lv.2,24,000명,68%
 단속카메라,https://school.programmers.co.kr/learn/courses/30/lessons/42884,Lv.3,10,329명,52%
 큰 수 만들기,https://school.programmers.co.kr/learn/courses/30/lessons/42883,Lv.2,20,702명,49%
 체육복,https://school.programmers.co.kr/learn/courses/30/lessons/42862,Lv.1,44,943명,54%
 섬 연결하기,https://school.programmers.co.kr/learn/courses/30/lessons/42861,Lv.3,10,299명,45%
 조이스틱,https://school.programmers.co.kr/learn/courses/30/lessons/42860,Lv.2,14,173명,35%
 카펫,https://school.programmers.co.kr/learn/courses/30/lessons/42842,Lv.2,34,678명,69%
-모의고사,https://school.programmers.co.kr/learn/courses/30/lessons/42840,Lv.1,60,227명,61%
+모의고사,https://school.programmers.co.kr/learn/courses/30/lessons/42840,Lv.1,60,228명,61%
 소수 찾기,https://school.programmers.co.kr/learn/courses/30/lessons/42839,Lv.2,29,530명,51%
 K번째수,https://school.programmers.co.kr/learn/courses/30/lessons/42748,Lv.1,76,479명,68%
 H-Index,https://school.programmers.co.kr/learn/courses/30/lessons/42747,Lv.2,35,502명,63%
@@ -487,12 +487,12 @@ H-Index,https://school.programmers.co.kr/learn/courses/30/lessons/42747,Lv.2,35,
 프로세스,https://school.programmers.co.kr/learn/courses/30/lessons/42587,Lv.2,39,914명,61%
 기능개발,https://school.programmers.co.kr/learn/courses/30/lessons/42586,Lv.2,49,566명,61%
 주식가격,https://school.programmers.co.kr/learn/courses/30/lessons/42584,Lv.2,33,682명,56%
-다리를 지나는 트럭,https://school.programmers.co.kr/learn/courses/30/lessons/42583,Lv.2,31,461명,51%
+다리를 지나는 트럭,https://school.programmers.co.kr/learn/courses/30/lessons/42583,Lv.2,31,462명,51%
 베스트앨범,https://school.programmers.co.kr/learn/courses/30/lessons/42579,Lv.3,27,661명,51%
 의상,https://school.programmers.co.kr/learn/courses/30/lessons/42578,Lv.2,44,488명,62%
 전화번호 목록,https://school.programmers.co.kr/learn/courses/30/lessons/42577,Lv.2,48,673명,59%
 완주하지 못한 선수,https://school.programmers.co.kr/learn/courses/30/lessons/42576,Lv.1,80,029명,54%
-[3차] n진수 게임,https://school.programmers.co.kr/learn/courses/30/lessons/17687,Lv.2,9,487명,57%
+[3차] n진수 게임,https://school.programmers.co.kr/learn/courses/30/lessons/17687,Lv.2,9,488명,57%
 [3차] 파일명 정렬,https://school.programmers.co.kr/learn/courses/30/lessons/17686,Lv.2,9,352명,55%
 [3차] 자동완성,https://school.programmers.co.kr/learn/courses/30/lessons/17685,Lv.4,2,108명,29%
 [3차] 압축,https://school.programmers.co.kr/learn/courses/30/lessons/17684,Lv.2,9,364명,58%
@@ -509,8 +509,8 @@ H-Index,https://school.programmers.co.kr/learn/courses/30/lessons/42747,Lv.2,35,
 지형 편집,https://school.programmers.co.kr/learn/courses/30/lessons/12984,Lv.4,622명,17%
 단어 퍼즐,https://school.programmers.co.kr/learn/courses/30/lessons/12983,Lv.4,787명,20%
 예산,https://school.programmers.co.kr/learn/courses/30/lessons/12982,Lv.1,32,373명,73%
-영어 끝말잇기,https://school.programmers.co.kr/learn/courses/30/lessons/12981,Lv.2,17,734명,70%
-점프와 순간 이동,https://school.programmers.co.kr/learn/courses/30/lessons/12980,Lv.2,13,060명,67%
+영어 끝말잇기,https://school.programmers.co.kr/learn/courses/30/lessons/12981,Lv.2,17,735명,70%
+점프와 순간 이동,https://school.programmers.co.kr/learn/courses/30/lessons/12980,Lv.2,13,061명,67%
 기지국 설치,https://school.programmers.co.kr/learn/courses/30/lessons/12979,Lv.3,4,662명,51%
 배달,https://school.programmers.co.kr/learn/courses/30/lessons/12978,Lv.2,7,358명,45%
 소수 만들기,https://school.programmers.co.kr/learn/courses/30/lessons/12977,Lv.1,29,269명,61%
@@ -527,45 +527,45 @@ JadenCase 문자열 만들기,https://school.programmers.co.kr/learn/courses/30/
 핸드폰 번호 가리기,https://school.programmers.co.kr/learn/courses/30/lessons/12948,Lv.1,47,041명,84%
 하샤드 수,https://school.programmers.co.kr/learn/courses/30/lessons/12947,Lv.1,43,826명,86%
 하노이의 탑,https://school.programmers.co.kr/learn/courses/30/lessons/12946,Lv.2,5,204명,41%
-피보나치 수,https://school.programmers.co.kr/learn/courses/30/lessons/12945,Lv.2,26,445명,72%
+피보나치 수,https://school.programmers.co.kr/learn/courses/30/lessons/12945,Lv.2,26,446명,72%
 평균 구하기,https://school.programmers.co.kr/learn/courses/30/lessons/12944,Lv.1,58,596명,87%
 콜라츠 추측,https://school.programmers.co.kr/learn/courses/30/lessons/12943,Lv.1,41,219명,85%
 최적의 행렬 곱셈,https://school.programmers.co.kr/learn/courses/30/lessons/12942,Lv.3,805명,21%
-최솟값 만들기,https://school.programmers.co.kr/learn/courses/30/lessons/12941,Lv.2,24,441명,76%
+최솟값 만들기,https://school.programmers.co.kr/learn/courses/30/lessons/12941,Lv.2,24,442명,76%
 최대공약수와 최소공배수,https://school.programmers.co.kr/learn/courses/30/lessons/12940,Lv.1,32,349명,76%
 최댓값과 최솟값,https://school.programmers.co.kr/learn/courses/30/lessons/12939,Lv.2,30,594명,79%
 최고의 집합,https://school.programmers.co.kr/learn/courses/30/lessons/12938,Lv.3,7,190명,60%
-짝수와 홀수,https://school.programmers.co.kr/learn/courses/30/lessons/12937,Lv.1,60,125명,87%
+짝수와 홀수,https://school.programmers.co.kr/learn/courses/30/lessons/12937,Lv.1,60,126명,87%
 줄 서는 방법,https://school.programmers.co.kr/learn/courses/30/lessons/12936,Lv.2,5,068명,45%
-제일 작은 수 제거하기,https://school.programmers.co.kr/learn/courses/30/lessons/12935,Lv.1,38,311명,83%
+제일 작은 수 제거하기,https://school.programmers.co.kr/learn/courses/30/lessons/12935,Lv.1,38,312명,83%
 정수 제곱근 판별,https://school.programmers.co.kr/learn/courses/30/lessons/12934,Lv.1,41,730명,86%
 정수 내림차순으로 배치하기,https://school.programmers.co.kr/learn/courses/30/lessons/12933,Lv.1,38,025명,86%
 자연수 뒤집어 배열로 만들기,https://school.programmers.co.kr/learn/courses/30/lessons/12932,Lv.1,43,227명,86%
-자릿수 더하기,https://school.programmers.co.kr/learn/courses/30/lessons/12931,Lv.1,48,400명,87%
-이상한 문자 만들기,https://school.programmers.co.kr/learn/courses/30/lessons/12930,Lv.1,34,157명,74%
+자릿수 더하기,https://school.programmers.co.kr/learn/courses/30/lessons/12931,Lv.1,48,402명,87%
+이상한 문자 만들기,https://school.programmers.co.kr/learn/courses/30/lessons/12930,Lv.1,34,158명,74%
 올바른 괄호의 갯수,https://school.programmers.co.kr/learn/courses/30/lessons/12929,Lv.4,1,840명,28%
-약수의 합,https://school.programmers.co.kr/learn/courses/30/lessons/12928,Lv.1,52,704명,87%
+약수의 합,https://school.programmers.co.kr/learn/courses/30/lessons/12928,Lv.1,52,706명,87%
 야근 지수,https://school.programmers.co.kr/learn/courses/30/lessons/12927,Lv.3,7,649명,58%
-시저 암호,https://school.programmers.co.kr/learn/courses/30/lessons/12926,Lv.1,31,530명,71%
+시저 암호,https://school.programmers.co.kr/learn/courses/30/lessons/12926,Lv.1,31,531명,71%
 문자열을 정수로 바꾸기,https://school.programmers.co.kr/learn/courses/30/lessons/12925,Lv.1,49,829명,86%
 숫자의 표현,https://school.programmers.co.kr/learn/courses/30/lessons/12924,Lv.2,19,791명,74%
 숫자 블록,https://school.programmers.co.kr/learn/courses/30/lessons/12923,Lv.2,2,165명,34%
-수박수박수박수박수박수?,https://school.programmers.co.kr/learn/courses/30/lessons/12922,Lv.1,50,983명,83%
+수박수박수박수박수박수?,https://school.programmers.co.kr/learn/courses/30/lessons/12922,Lv.1,50,984명,83%
 소수 찾기,https://school.programmers.co.kr/learn/courses/30/lessons/12921,Lv.1,27,783명,61%
 선입 선출 스케줄링,https://school.programmers.co.kr/learn/courses/30/lessons/12920,Lv.3,1,128명,24%
 서울에서 김서방 찾기,https://school.programmers.co.kr/learn/courses/30/lessons/12919,Lv.1,49,034명,84%
 문자열 다루기 기본,https://school.programmers.co.kr/learn/courses/30/lessons/12918,Lv.1,44,552명,79%
 문자열 내림차순으로 배치하기,https://school.programmers.co.kr/learn/courses/30/lessons/12917,Lv.1,39,681명,81%
 문자열 내 p와 y의 개수,https://school.programmers.co.kr/learn/courses/30/lessons/12916,Lv.1,46,525명,86%
-문자열 내 마음대로 정렬하기,https://school.programmers.co.kr/learn/courses/30/lessons/12915,Lv.1,31,181명,68%
+문자열 내 마음대로 정렬하기,https://school.programmers.co.kr/learn/courses/30/lessons/12915,Lv.1,31,182명,68%
 멀리 뛰기,https://school.programmers.co.kr/learn/courses/30/lessons/12914,Lv.2,13,469명,66%
 땅따먹기,https://school.programmers.co.kr/learn/courses/30/lessons/12913,Lv.2,11,114명,56%
-두 정수 사이의 합,https://school.programmers.co.kr/learn/courses/30/lessons/12912,Lv.1,53,514명,85%
+두 정수 사이의 합,https://school.programmers.co.kr/learn/courses/30/lessons/12912,Lv.1,53,515명,85%
 다음 큰 숫자,https://school.programmers.co.kr/learn/courses/30/lessons/12911,Lv.2,20,004명,72%
 나누어 떨어지는 숫자 배열,https://school.programmers.co.kr/learn/courses/30/lessons/12910,Lv.1,44,497명,84%
 올바른 괄호,https://school.programmers.co.kr/learn/courses/30/lessons/12909,Lv.2,30,064명,76%
 거스름돈,https://school.programmers.co.kr/learn/courses/30/lessons/12907,Lv.3,3,512명,38%
-같은 숫자는 싫어,https://school.programmers.co.kr/learn/courses/30/lessons/12906,Lv.1,49,798명,76%
+같은 숫자는 싫어,https://school.programmers.co.kr/learn/courses/30/lessons/12906,Lv.1,49,800명,76%
 가장 큰 정사각형 찾기,https://school.programmers.co.kr/learn/courses/30/lessons/12905,Lv.2,8,307명,44%
 가장 긴 팰린드롬,https://school.programmers.co.kr/learn/courses/30/lessons/12904,Lv.3,6,245명,42%
 가운데 글자 가져오기,https://school.programmers.co.kr/learn/courses/30/lessons/12903,Lv.1,54,912명,83%
@@ -574,7 +574,7 @@ JadenCase 문자열 만들기,https://school.programmers.co.kr/learn/courses/30/
 2 x n 타일링,https://school.programmers.co.kr/learn/courses/30/lessons/12900,Lv.2,10,809명,53%
 124 나라의 숫자,https://school.programmers.co.kr/learn/courses/30/lessons/12899,Lv.2,23,265명,49%
 폰켓몬,https://school.programmers.co.kr/learn/courses/30/lessons/1845,Lv.1,34,979명,62%
-게임 맵 최단거리,https://school.programmers.co.kr/learn/courses/30/lessons/1844,Lv.2,15,328명,56%
+게임 맵 최단거리,https://school.programmers.co.kr/learn/courses/30/lessons/1844,Lv.2,15,329명,56%
 사칙연산,https://school.programmers.co.kr/learn/courses/30/lessons/1843,Lv.4,1,119명,12%
 네오의 귀걸이,https://school.programmers.co.kr/learn/courses/30/lessons/1842,Lv.5,21명,0%
 IU와 콘의 보드게임,https://school.programmers.co.kr/learn/courses/30/lessons/1841,Lv.5,16명,0%
