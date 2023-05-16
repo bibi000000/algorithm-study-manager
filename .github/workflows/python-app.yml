@@ -9,8 +9,9 @@ on:
   pull_request:
     branches: ["scraper"]
 
-permissions:
-  contents: read
+# permissions:
+#   # contents: read
+#   contents: write
 
 jobs:
   build:
