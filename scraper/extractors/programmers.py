@@ -15,8 +15,8 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 # from scraper.extractors.programmers_env import email, password
 # from scraper.utils.file import save_to_file_programmers
 
-email = "pound1734@gmail.com"
-password = "0828dbff!!"
+email = os.environ["KYR_PROGRAMMERS_EMAIL"]
+password = os.environ["KYR_PROGRAMMERS_PASSWORD"]
 
 g = Github(os.environ["KYR_ACCESS_TOKEN"])
 
