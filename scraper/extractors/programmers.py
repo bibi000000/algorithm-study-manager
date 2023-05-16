@@ -135,10 +135,10 @@ def extract_programmers_challenges_solved():
 def save_challenges():
     # challenges_total = extract_programmers_challenges_total()
     # save_to_file_programmers('programmers', challenges_total)
-    save_to_file_programmers_test()
+    save_to_file_programmers_test('programmers')
 
 
-def save_to_file_programmers_test():
+def save_to_file_programmers_test(file_name):
     file = open(f'{file_name}.csv', 'w', encoding='utf-8')
     file.write("title, link, level, finished_count, acceptance_rate\n")
     file.close()    
