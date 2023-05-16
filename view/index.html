@@ -10,11 +10,29 @@
     <h1>Hello A S M !</h1>
     <div id="programmers_challenges"></div>
     <script>
+      const fs = require("fs");
+      const path = requre("path");
       window.onload = function () {
         let programmers_challenges = document.getElementById(
           "programmers_challenges"
         );
-        programmers_challenges.innerHTML = "프로그래머스 문제 모음";
+        let p_innerHTML = "프로그래머스 문제 모음";
+        // let p_path = "../scraper/problems/programmers.csv";
+        const p_filename = "programmers.csv";
+        const p_path = path.join(
+          __dirname,
+          "..",
+          "scraper",
+          "problems",
+          p_filename
+        );
+        const p_csv = fs.readFileSync(p_path, "utf-8");
+        const p_rows = csv.split(/\r?\n|\r/);
+        for (const r in p_rows) {
+          console.log(r);
+          p_innerHTML += r + "\n";
+        }
+        programmers_challenges.innerHTML = p_innerHTML;
       };
     </script>
   </body>
