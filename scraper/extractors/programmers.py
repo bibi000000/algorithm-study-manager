@@ -151,7 +151,8 @@ def save_to_file_programmers(file_name, problems):
     # for p in problems:
     #     file.write(f"{p['title']};{p['link']};{p['level']};{p['finished_count']};{p['acceptance_rate']}\n")
     # file.close()
-    file = open(f'scraper/problems/{file_name}.json', 'w', encoding='utf-8')
+    # file = open(f'scraper/problems/{file_name}.json', 'w', encoding='utf-8')
+    file = open(f'view/{file_name}.json', 'w', encoding='utf-8')
     file.write("programmers_problems = ")
     data = {}
     for i in range(0, len(problems)):
