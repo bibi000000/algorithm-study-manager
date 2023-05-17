@@ -19,7 +19,7 @@
     </table>
     <script id="data" src="./programmers.json" type="text/javascript"></script>
     <script>
-      const P_DATA_KEY = ["title", "link", "level", "finished_count", "acceptance_rate"]
+      const P_DATA_KEY = ["title", "part", "link", "level", "finished_count", "acceptance_rate", "solved"]
       const COUNT_COL = 5;
       window.onload = function () {
         let p_data = JSON.parse(JSON.stringify(programmers_problems))
@@ -34,11 +34,27 @@
           let tr = document.createElement("tr")
           let row = data[key_data];
           console.log(row);
-          // for (const key_row in Object.keys(row)) {
-          //   let td = document.createElement("td")
-          //   td.appendChild(document.createTextNode(row[key_row]+" "))
-          //   tr.appendChild(td);
-          // }
+          let td1 = document.createElement("td")
+          td1.appendChild(document.createTextNode(row.title+" "))
+          tr.appendChild(td1);
+          let td2 = document.createElement("td")
+          td2.appendChild(document.createTextNode(row.part+" "))
+          tr.appendChild(td2);
+          let td3 = document.createElement("td")
+          td3.appendChild(document.createTextNode(row.link+" "))
+          tr.appendChild(td3);
+          let td4 = document.createElement("td")
+          td4.appendChild(document.createTextNode(row.level+" "))
+          tr.appendChild(td4);
+          let td5 = document.createElement("td")
+          td5.appendChild(document.createTextNode(row.finished_count+" "))
+          tr.appendChild(td5);
+          let td6 = document.createElement("td")
+          td6.appendChild(document.createTextNode(row.acceptance_rate+" "))
+          tr.appendChild(td6);
+          let td7 = document.createElement("td")
+          td7.appendChild(document.createTextNode(row.solved+" "))
+          tr.appendChild(td7);
           table.appendChild(tr);
         }
       }
