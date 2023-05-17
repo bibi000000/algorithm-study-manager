@@ -20,46 +20,46 @@ concurrency:
 # 
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    env:
-      KYR_ACCESS_TOKEN: ${{secrets.KYR_ACCESS_TOKEN}}
-      KYR_PROGRAMMERS_EMAIL: ${{secrets.KYR_PROGRAMMERS_EMAIL}}
-      KYR_PROGRAMMERS_PASSWORD: ${{secrets.KYR_PROGRAMMERS_PASSWORD}}
+  # build:
+  #   runs-on: ubuntu-latest
+  #   env:
+  #     KYR_ACCESS_TOKEN: ${{secrets.KYR_ACCESS_TOKEN}}
+  #     KYR_PROGRAMMERS_EMAIL: ${{secrets.KYR_PROGRAMMERS_EMAIL}}
+  #     KYR_PROGRAMMERS_PASSWORD: ${{secrets.KYR_PROGRAMMERS_PASSWORD}}
 
-    steps:
-      - uses: actions/checkout@v3
-      - name: Set up Python 3.10
-        uses: actions/setup-python@v3
-        with:
-          python-version: "3.10"
-      - name: Install ubuntu lib
-        run: |
-          sudo apt-get update
-          sudo apt-get install tree
-      - name: Check file system
-        run: |
-          echo $HOME
-          pwd
-          tree .
-      - name: Install lib
-        run: |
-          python -m pip install --upgrade pip
-          if [ -f ./scraper/lib/requirements.txt ]; then pip install -r ./scraper/lib/requirements.txt; fi
-      - name: Execute main.py
-        run: |
-          python ./scraper/main.py ${{secrets.KYR_ACCESS_TOKEN}}
-      - name: Commit
-        run: |
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "github-actions[bot]"
-          git add .
-          git commit -m "[github-actions] update"
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          repository: "poundee/algorithm-study-manager"
-          branch: "main"
+  #   steps:
+  #     - uses: actions/checkout@v3
+  #     - name: Set up Python 3.10
+  #       uses: actions/setup-python@v3
+  #       with:
+  #         python-version: "3.10"
+  #     - name: Install ubuntu lib
+  #       run: |
+  #         sudo apt-get update
+  #         sudo apt-get install tree
+  #     - name: Check file system
+  #       run: |
+  #         echo $HOME
+  #         pwd
+  #         tree .
+  #     - name: Install lib
+  #       run: |
+  #         python -m pip install --upgrade pip
+  #         if [ -f ./scraper/lib/requirements.txt ]; then pip install -r ./scraper/lib/requirements.txt; fi
+  #     - name: Execute main.py
+  #       run: |
+  #         python ./scraper/main.py ${{secrets.KYR_ACCESS_TOKEN}}
+  #     - name: Commit
+  #       run: |
+  #         git config --global user.email "github-actions[bot]@users.noreply.github.com"
+  #         git config --global user.name "github-actions[bot]"
+  #         git add .
+  #         git commit -m "[github-actions] update"
+  #     - name: Push changes
+  #       uses: ad-m/github-push-action@master
+  #       with:
+  #         repository: "poundee/algorithm-study-manager"
+  #         branch: "main"
 
 # 
   deploy:
