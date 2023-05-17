@@ -33,9 +33,9 @@
         for (const key_data in Object.keys(data)) {
           let tr = document.createElement("tr")
           let row = data[key_data];
-          for (const i=0; i<COUNT_COL; i++) {
+          for (const key_row in Object.keys(row)) {
             let td = document.createElement("td")
-            td.appendChild(document.createTextNode(row.P_DATA_KEY[i]+" "))
+            td.appendChild(document.createTextNode(row[key_row]+" "))
             tr.appendChild(td);
           }
           table.appendChild(tr);
