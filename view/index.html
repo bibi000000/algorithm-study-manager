@@ -8,25 +8,39 @@
   </head>
   <body>
     <h1>Hello A S M !</h1>
-    <div id="programmers_challenges"></div>
+    <table id="programmers_challenges">
+      <tr>
+        <th>title</th>
+        <th>link</th>
+        <th>level</th>
+        <th>finished_count</th>
+        <th>acceptance_rate</th>
+      </tr>
+    </table>
     <script id="data" src="./programmers.json" type="text/javascript"></script>
     <script>
+      const P_DATA_KEY = ["title", "link", "level", "finished_count", "acceptance_rate"]
+      const COUNT_COL = 5;
       window.onload = function () {
-        let programmers_challenges = document.getElementById(
-          "programmers_challenges"
-        );
-        let p_innerHTML = "프로그래머스 문제 모음";
-        // let p_data = document.getElementById("data").textContent;
-        console.log(document.getElementById("data"));
-        console.log(document.getElementById("data").textContent);
         let p_data = JSON.parse(JSON.stringify(programmers_problems))
         console.log(p_data);
-        // let p_data = JSON.parse(document.getElementById("data").textContent);
-        // p_innerHTML += p_data;
-        // let programmers_problems = JSON.parse(JSON.stringify(programmers_problems));
-        // p_innerHTML += programmers_problems
-        programmers_challenges.innerHTML = p_innerHTML;
+        fromJsonToTableProgrammersProblems(p_data);
       };
+      
+      function fromJsonToTableProgrammersProblems(data) {
+        let table = document.getElementById("programmers_challenges");
+
+        for (const key_data in Object.keys(data)) {
+          let tr = document.createElement("tr")
+          let row = data[key_data];
+          for (const i=0; i<COUNT_COL; i++) {
+            let td = document.createElement("td")
+            td.appendChild(document.createTextNode(row[P_DATA_KEY[i]]+" "))
+            tr.appendChild(td);
+          }
+          table.appendChild(tr);
+        }
+      }
 
     </script>
   </body>
