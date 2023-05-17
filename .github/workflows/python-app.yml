@@ -65,7 +65,7 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           repository: "poundee/algorithm-study-manager"
-          branch: "scraper"
+          branch: "main"
           # github_token: "${{secrets.KYR_ACCESS_TOKEN}}"
 
 # 
