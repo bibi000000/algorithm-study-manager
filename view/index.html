@@ -16,7 +16,9 @@
           "programmers_challenges"
         );
         let p_innerHTML = "프로그래머스 문제 모음";
-        let p_data = document.getElementById("data").textContent;
+        // let p_data = document.getElementById("data").textContent;
+        console.log(document.getElementById("data"));
+        let p_data = JSON.parse(JSON.stringify(programmers_problems))
         console.log(p_data);
         // let p_data = JSON.parse(document.getElementById("data").textContent);
         // p_innerHTML += p_data;
