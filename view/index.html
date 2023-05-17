@@ -30,9 +30,8 @@
       function fromJsonToTableProgrammersProblems(data) {
         let table = document.getElementById("programmers_challenges");
 
-        for (const key_data in Object.keys(data)) {
+        for (const row in data) {
           let tr = document.createElement("tr")
-          let row = data[key_data];
           console.log(row);
           let td1 = document.createElement("td")
           td1.appendChild(document.createTextNode(row.title+" "))
