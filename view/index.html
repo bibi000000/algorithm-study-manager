@@ -46,7 +46,7 @@
           console.log(row);
           let th = document.createElement("th")
           th.setAttribute("scope", "row")
-          th.appendChild(no++);
+          th.appendChild(document.createTextNode(no++ +" "));
           tr.appendChild(th);
           let td1 = document.createElement("td")
           let a1 = document.createElement("a")
