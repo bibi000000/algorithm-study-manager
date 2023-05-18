@@ -9,14 +9,15 @@
   </head>
   <body>
     <h1>Hello A S M !</h1>
-    <table id="programmers_challenges">
+    <table id="programmers_challenges" class="table table-bordered table-sm">
       <tr>
-        <th>title</th>
-        <th>part</th>
+        <th scope="col">#</th>
+        <th scope="col">title</th>
+        <th scope="col">part</th>
         <!-- <th>link</th> -->
-        <th>level</th>
-        <th>finished_count</th>
-        <th>acceptance_rate</th>
+        <th scope="col">level</th>
+        <th scope="col">finished_count</th>
+        <th scope="col">acceptance_rate</th>
       </tr>
     </table>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
@@ -33,13 +34,20 @@
       
       function fromJsonToTableProgrammersProblems(data) {
         let table = document.getElementById("programmers_challenges");
-
+        let tbody = document.createElement("tbody");
+        tbody.setAttribute("class", "table-group-divider")
+        let no = 1;
         for (const row of Object.values(data)) {
           let tr = document.createElement("tr")
           console.log(row);
+          let th = document.createElement("th")
+          th.setAttribute("scope", "row")
+          th.appendChild(no++);
+          tr.appendChild(th);
           let td1 = document.createElement("td")
           let a1 = document.createElement("a")
           a1.setAttribute("href", row.link)
+          a1.setAttribute("target", "_blank")
           a1.appendChild(document.createTextNode(row.title+" "))
           // td1.appendChild(document.createTextNode(row.title+" "))
           td1.appendChild(a1);
@@ -62,8 +70,9 @@
           let td7 = document.createElement("td")
           td7.appendChild(document.createTextNode(row.solved+" "))
           tr.appendChild(td7);
-          table.appendChild(tr);
+          tbody.appendChild(tr);
         }
+        table.appendChild(tbody);
       }
 
     </script>
