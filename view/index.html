@@ -43,9 +43,6 @@
         let p_data = JSON.parse(JSON.stringify(programmers_problems))
         console.log(p_data);
         fromJsonToTableProgrammersProblems(p_data);
-        $(function() {
-          $('#programmers_challenges').bootstrapTable()
-        })
       };
       
       function fromJsonToTableProgrammersProblems(data) {
