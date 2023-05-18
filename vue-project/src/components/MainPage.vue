@@ -6,13 +6,18 @@
 </template>
 
 <script>
-// import p_data from "../data/programmers.json"
+import p_data from "../assets/data/programmers.json"
 export default {
     setup() {
     },
     data() {
         return {}
     },
+    computed() {
+        return p_data.map((d) => {
+            return d;
+        })
+    }
 }
 </script>
 
