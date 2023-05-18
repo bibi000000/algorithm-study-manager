@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- start of jquery -->
     <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
     <!-- end of jquery -->
 
     <title>Document</title>
-  </head>
-  <body>
+</head>
+<body>
     <!-- start of bootstrap-table -->
     <link href="https://unpkg.com/bootstrap-table@1.21.4/dist/bootstrap-table.min.css" rel="stylesheet">
 
@@ -20,82 +19,28 @@
     <script src="https://unpkg.com/bootstrap-table@1.21.4/dist/extensions/filter-control/bootstrap-table-filter-control.min.js"></script>
     <!-- end of bootstrap-table -->
 
-    <div class="container">
-      <div class="row justify-content-center">
-        <h1>Hello A S M !</h1>
-      </div>
-      <table id="programmers_challenges" class="table table-bordered table-sm">
-        <tr>
-          <th scope="col">#</th>
-          <th scope="col">title</th>
-          <th scope="col">part</th>
-          <!-- <th>link</th> -->
-          <th scope="col">level</th>
-          <th scope="col">finished_count</th>
-          <th scope="col">acceptance_rate</th>
-          <th scope="col">solved</th>
-        </tr>
-      </table>
-    </div>
+    <table
+    id="table"
+    crossorigin data-url="./programmers.json"
+    data-filter-control="true"
+    data-show-search-clear-button="true">
+        <thead>
+            <tr>
+                <th data-field="title" data-filter-control="select">title</th>
+                <th data-field="part" data-filter-control="select">part</th>
+                <th data-field="level" data-filter-control="select">level</th>
+                <th data-field="finished_count" data-filter-control="select">finished_count</th>
+                <th data-field="acceptance_rate" data-filter-control="select">acceptance_rate</th>
+                <th data-field="solved" data-filter-control="select">solved</th>
+            </tr>
+        </thead>
+    </table>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>    <script id="data" src="./programmers.json" type="text/javascript"></script>
+
     <script>
-      const P_DATA_KEY = ["title", "part", "link", "level", "finished_count", "acceptance_rate", "solved"]
-      const COUNT_COL = 5;
-      window.onload = function () {
-        let p_data = JSON.parse(JSON.stringify(programmers_problems))
-        console.log(p_data);
-        fromJsonToTableProgrammersProblems(p_data);
-        $(function() {
-          $('#programmers_challenges').bootstrapTable()
-        })
-      };
-      
-      function fromJsonToTableProgrammersProblems(data) {
-        let table = document.getElementById("programmers_challenges");
-        let tbody = document.createElement("tbody");
-        tbody.setAttribute("class", "table-group-divider")
-        let no = 1;
-        for (const row of Object.values(data)) {
-          let tr = document.createElement("tr")
-          // console.log(row);
-          let th = document.createElement("th")
-          th.setAttribute("scope", "row")
-          th.appendChild(document.createTextNode(no++ +" "));
-          tr.appendChild(th);
-          let td1 = document.createElement("td")
-          let a1 = document.createElement("a")
-          a1.setAttribute("href", row.link)
-          a1.setAttribute("target", "_blank")
-          a1.appendChild(document.createTextNode(row.title+" "))
-          // td1.appendChild(document.createTextNode(row.title+" "))
-          td1.appendChild(a1);
-          tr.appendChild(td1);
-          let td2 = document.createElement("td")
-          td2.appendChild(document.createTextNode(row.part+" "))
-          tr.appendChild(td2);
-          // let td3 = document.createElement("td")
-          // td3.appendChild(document.createTextNode(row.link+" "))
-          // tr.appendChild(td3);
-          let td4 = document.createElement("td")
-          td4.appendChild(document.createTextNode(row.level+" "))
-          tr.appendChild(td4);
-          let td5 = document.createElement("td")
-          td5.appendChild(document.createTextNode(row.finished_count+" "))
-          tr.appendChild(td5);
-          let td6 = document.createElement("td")
-          td6.appendChild(document.createTextNode(row.acceptance_rate+" "))
-          tr.appendChild(td6);
-          let td7 = document.createElement("td")
-          td7.appendChild(document.createTextNode(row.solved+" "))
-          tr.appendChild(td7);
-          tbody.appendChild(tr);
-        }
-        table.appendChild(tbody);
-      }
-
+    $(function() {
+        $('#table').bootstrapTable()
+    })
     </script>
-  </body>
+</body>
 </html>
