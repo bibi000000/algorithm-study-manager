@@ -125,7 +125,7 @@ def extract_programmers_challenges_solved():
             solved = challenges[j].find_element(By.CLASS_NAME, 'status')
             challenges_problems.append({
                 'title': title.find_element(By.TAG_NAME, 'a').text,
-                'part': title.find_element(By.TAG_NAME, 'small').text,
+                'part': title.find_element(By.CLASS_NAME, 'part-title').text,
                 'link': title.find_element(By.TAG_NAME, 'a').get_attribute('href'),
                 'level': dict_level[level.find_element(By.TAG_NAME, 'span').get_attribute('class')],
                 'finished_count': finished_count.text,
