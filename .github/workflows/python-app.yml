@@ -77,8 +77,8 @@ jobs:
         with:
           # Upload entire repository
           # path: '.'
-          path: "./view/"
-          # path: "./vue-project/dist/"
+          # path: "./view/"
+          path: "./vue-project/dist/"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
