@@ -157,10 +157,10 @@ def save_to_file_programmers(file_name, problems):
     # file = open(f'view/{file_name}.json', 'w', encoding='utf-8')
     file = open(f'vue-project/src/data/{file_name}.json', 'w', encoding='utf-8')
     file.write("programmers_problems = ")
-    data = {}
-    for i in range(0, len(problems)):
-        data[str(i+1)] = problems[i]
-    json.dump(data, file)
+    # data = {}
+    # for i in range(0, len(problems)):
+    #     data[str(i+1)] = problems[i]
+    json.dump(problems, file)
     file.close()
 
 
