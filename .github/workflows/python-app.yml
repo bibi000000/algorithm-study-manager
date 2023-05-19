@@ -83,7 +83,9 @@ jobs:
           cd vue-project
           npm install
       - name: Build page
-        run: npm run build
+        run: |
+          cd vue-project
+          npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
