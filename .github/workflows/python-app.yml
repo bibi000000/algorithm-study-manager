@@ -73,27 +73,32 @@ jobs:
       # - name: Setup Pages
       #   uses: actions/configure-pages@v3
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@main
       - name: Set up node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@main
         with:
           node-version: 18.x
       - name: Install dependencies
         run: |
-          cd vue-project
+          cd asm
           npm install
       - name: Build page
         run: |
-          cd vue-project
+          cd asm
           npm run build
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          # Upload entire repository
-          # path: '.'
-          # path: "./view/"
-          path: "./vue-project/dist/"
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
+          github_token: ${{secrets.KYR_ACCESS_TOKEN}}
+          publish_dir: ./dist
+      # - name: Upload artifact
+      #   uses: actions/upload-pages-artifact@v1
+      #   with:
+      #     # Upload entire repository
+      #     # path: '.'
+      #     # path: "./view/"
+      #     path: "./asm/dist/"
+      # - name: Deploy to GitHub Pages
+      #   id: deployment
+      #   uses: actions/deploy-pages@v2
 # 
