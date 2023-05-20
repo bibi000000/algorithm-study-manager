@@ -1,6 +1,8 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Algorighm Study Manager"/>
+  <div>
+    <img alt="Vue logo" src="./assets/logo.png">
+    <HelloWorld msg="Algorighm Study Manager"/>
+  </div>
 </template>
 
 <script>
