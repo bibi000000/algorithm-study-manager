@@ -36,16 +36,16 @@ jobs:
           node-version: 18
           cache: 'npm'
       - name: Install dependencies
-        run: cd asm && npm install
+        run: npm install
       - name: Build
-        run: cd asm && npm run build
+        run: npm run build
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
           # dist 디렉터리 업로드
-          path: './asm/dist'
+          path: './dist'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
