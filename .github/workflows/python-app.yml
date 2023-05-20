@@ -86,11 +86,18 @@ jobs:
         run: |
           cd asm
           npm run build
-      - name: Deploy to gh-pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{secrets.KYR_ACCESS_TOKEN}}
-          publish_dir: ./dist
+      - name: Deploy with gh-pages
+        run: |
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+          npm run deploy -- -u "github-actions-bot <support+actions@github.com>"
+        env: 
+          GITHUB_TOKEN: ${{ secrets.KYR_ACCESS_TOKEN }}
+          GITHUB_REPOSITORY: "poundee/algorithm-study-manager"
+      # - name: Deploy to gh-pages
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     github_token: ${{secrets.KYR_ACCESS_TOKEN}}
+      #     publish_dir: ./dist
       # - name: Upload artifact
       #   uses: actions/upload-pages-artifact@v1
       #   with:
