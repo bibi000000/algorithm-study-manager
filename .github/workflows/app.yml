@@ -60,7 +60,6 @@ jobs:
         with:
           repository: "poundee/algorithm-study-manager"
           branch: "main"
-
   deploy:
     needs: scrap
     environment:
