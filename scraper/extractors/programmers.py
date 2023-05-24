@@ -54,47 +54,6 @@ def create_new_study():
     """
 
 
-def extract_programmers_challenges_total():
-    driver.get(f"{base_url}/account/sign_in")
-    inputs = driver.find_elements(By.CLASS_NAME, 'FymRFM681OjzOdzor5nk')
-    input_email = inputs[0]
-    input_password = inputs[1]
-    input_email.send_keys(email)
-    input_password.send_keys(password)
-    button_login = driver.find_element(By.CLASS_NAME, 'itAWTII94uCyf9uUgREi')
-    button_login.click()
-    _cookies = driver.get_cookies()
-    for cookie in _cookies:
-        driver.add_cookie(cookie)
-    time.sleep(SECONDS)
-    driver.get(f'{base_url}/{challenges_url}')
-    time.sleep(SECONDS)
-    challenges_total = driver.find_element(By.CSS_SELECTOR, "div.total")
-    challenges_total_num = int(challenges_total.text.split(' ')[0])
-    challenges_problems = []
-    for i in range((challenges_total_num//num_per_page)+1):
-        driver.get(f'{base_url}/{challenges_url}?page={i+1}')
-        time.sleep(SECONDS)
-        challenges = driver.find_element(By.TAG_NAME, 'tbody').find_elements(By.TAG_NAME, 'tr')
-        time.sleep(SECONDS)
-        for j in range(len(challenges)):
-            title = challenges[j].find_element(By.CLASS_NAME, 'title')
-            level = challenges[j].find_element(By.CLASS_NAME, 'level')
-            finished_count = challenges[j].find_element(By.CLASS_NAME, 'finished-count')
-            acceptance_rate = challenges[j].find_element(By.CLASS_NAME, 'acceptance-rate')
-            solved = challenges[j].find_element(By.CLASS_NAME, 'status')
-            challenges_problems.append({
-                'title': title.find_element(By.TAG_NAME, 'a').text,
-                'part': title.find_element(By.CLASS_NAME, 'part-title').text,
-                'link': title.find_element(By.TAG_NAME, 'a').get_attribute('href'),
-                'level': dict_level[level.find_element(By.TAG_NAME, 'span').get_attribute('class')],
-                'finished_count': finished_count.text,
-                'acceptance_rate': acceptance_rate.text,
-                'solved': solved.get_attribute('class').split(' ')[1]
-            })
-    return challenges_problems
-
-
 def extract_programmers_challenges_solved():
     driver.get(f"{base_url}/account/sign_in")
     inputs = driver.find_elements(By.CLASS_NAME, 'FymRFM681OjzOdzor5nk')
@@ -150,6 +109,63 @@ def extract_programmers_challenges_solved():
             #     }
             # })
             print(challenges_problems[key])
+    return challenges_problems
+
+
+def extract_programmers_challenges_total():
+    driver.get(f"{base_url}/account/sign_in")
+    inputs = driver.find_elements(By.CLASS_NAME, 'FymRFM681OjzOdzor5nk')
+    input_email = inputs[0]
+    input_password = inputs[1]
+    input_email.send_keys(email)
+    input_password.send_keys(password)
+    button_login = driver.find_element(By.CLASS_NAME, 'itAWTII94uCyf9uUgREi')
+    button_login.click()
+    _cookies = driver.get_cookies()
+    for cookie in _cookies:
+        driver.add_cookie(cookie)
+    time.sleep(SECONDS)
+    driver.get(f'{base_url}/{challenges_url}')
+    time.sleep(SECONDS)
+    challenges_total = driver.find_element(By.CSS_SELECTOR, "div.total")
+    challenges_total_num = int(challenges_total.text.split(' ')[0])
+    # challenges_problems = []
+    challenges_problems = {}
+    for i in range((challenges_total_num//num_per_page)+1):
+        driver.get(f'{base_url}/{challenges_url}?page={i+1}')
+        time.sleep(SECONDS)
+        challenges = driver.find_element(By.TAG_NAME, 'tbody').find_elements(By.TAG_NAME, 'tr')
+        time.sleep(SECONDS)
+        for j in range(len(challenges)):
+            title = challenges[j].find_element(By.CLASS_NAME, 'title')
+            level = challenges[j].find_element(By.CLASS_NAME, 'level')
+            finished_count = challenges[j].find_element(By.CLASS_NAME, 'finished-count')
+            acceptance_rate = challenges[j].find_element(By.CLASS_NAME, 'acceptance-rate')
+            solved = challenges[j].find_element(By.CLASS_NAME, 'status')
+            link = title.find_element(By.TAG_NAME, 'a').get_attribute('href')
+            key = link.spilit("/")[-1]
+            challenges_problems[key] = {
+                'title': title.find_element(By.TAG_NAME, 'a').text,
+                'part': title.find_element(By.CLASS_NAME, 'part-title').text,
+                # 'link': title.find_element(By.TAG_NAME, 'a').get_attribute('href'),
+                'link': link,
+                'level': dict_level[level.find_element(By.TAG_NAME, 'span').get_attribute('class')],
+                'finished_count': finished_count.text,
+                'acceptance_rate': acceptance_rate.text,
+                'solved': solved.get_attribute('class').split(' ')[1]
+            }
+            # challenges_problems.append({
+            #     key: {
+            #         'title': title.find_element(By.TAG_NAME, 'a').text,
+            #         'part': title.find_element(By.CLASS_NAME, 'part-title').text,
+            #         # 'link': title.find_element(By.TAG_NAME, 'a').get_attribute('href'),
+            #         'link': link,
+            #         'level': dict_level[level.find_element(By.TAG_NAME, 'span').get_attribute('class')],
+            #         'finished_count': finished_count.text,
+            #         'acceptance_rate': acceptance_rate.text,
+            #         'solved': solved.get_attribute('class').split(' ')[1]
+            #     }
+            # })
     return challenges_problems
 
 
