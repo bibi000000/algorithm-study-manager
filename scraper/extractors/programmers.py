@@ -85,7 +85,7 @@ def extract_programmers_challenges_solved():
             acceptance_rate = challenges[j].find_element(By.CLASS_NAME, 'acceptance-rate')
             solved = challenges[j].find_element(By.CLASS_NAME, 'status')
             link = title.find_element(By.TAG_NAME, 'a').get_attribute('href')
-            key = link.spilit("/")[-1]
+            key = link.split("/")[-1]
             challenges_problems[key] = {
                 'title': title.find_element(By.TAG_NAME, 'a').text,
                 'part': title.find_element(By.CLASS_NAME, 'part-title').text,
@@ -143,7 +143,7 @@ def extract_programmers_challenges_total():
             acceptance_rate = challenges[j].find_element(By.CLASS_NAME, 'acceptance-rate')
             solved = challenges[j].find_element(By.CLASS_NAME, 'status')
             link = title.find_element(By.TAG_NAME, 'a').get_attribute('href')
-            key = link.spilit("/")[-1]
+            key = link.split("/")[-1]
             challenges_problems[key] = {
                 'title': title.find_element(By.TAG_NAME, 'a').text,
                 'part': title.find_element(By.CLASS_NAME, 'part-title').text,
