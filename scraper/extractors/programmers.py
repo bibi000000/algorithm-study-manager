@@ -124,14 +124,19 @@ def extract_programmers_challenges_solved():
             finished_count = challenges[j].find_element(By.CLASS_NAME, 'finished-count')
             acceptance_rate = challenges[j].find_element(By.CLASS_NAME, 'acceptance-rate')
             solved = challenges[j].find_element(By.CLASS_NAME, 'status')
+            link = title.find_element(By.TAG_NAME, 'a').get_attribute('href')
+            key = link.spilit("/")[-1]
             challenges_problems.append({
-                'title': title.find_element(By.TAG_NAME, 'a').text,
-                'part': title.find_element(By.CLASS_NAME, 'part-title').text,
-                'link': title.find_element(By.TAG_NAME, 'a').get_attribute('href'),
-                'level': dict_level[level.find_element(By.TAG_NAME, 'span').get_attribute('class')],
-                'finished_count': finished_count.text,
-                'acceptance_rate': acceptance_rate.text,
-                'solved': solved.get_attribute('class').split(' ')[1]
+                key: {
+                    'title': title.find_element(By.TAG_NAME, 'a').text,
+                    'part': title.find_element(By.CLASS_NAME, 'part-title').text,
+                    # 'link': title.find_element(By.TAG_NAME, 'a').get_attribute('href'),
+                    'link': link,
+                    'level': dict_level[level.find_element(By.TAG_NAME, 'span').get_attribute('class')],
+                    'finished_count': finished_count.text,
+                    'acceptance_rate': acceptance_rate.text,
+                    'solved': solved.get_attribute('class').split(' ')[1]
+                }
             })
     return challenges_problems
 
