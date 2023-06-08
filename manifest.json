@@ -18,13 +18,16 @@
     "service_worker": "background.js"
     
   },
-  "oauth2":{
-    "client_id": "b59f5ff212158998d4a2",
-    "scopes" :[
-      "repo",
-      "user:email"],
-    "authorization_endpoint": "https://github.com/login/oauth/authorize",
-    "token_endpoint": "https://github.com/login/oauth/access_token"
-  }
+  "content_scripts" :[
+    {
+      "matches" :[
+        "https://github.com/*"
+      ],
+      "js" :[
+        "scripts/authorize.js"
+      ],
+      "run_at" : "document_idle"
+    }
+  ]
  
 }
