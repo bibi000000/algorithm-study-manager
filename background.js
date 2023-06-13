@@ -1,16 +1,20 @@
-chrome.runtime.onMessage.addListener(function(request, sender, sendResponse){
+
+function testHandle(request, sender, sendResponse) {
   if (request && request.closeWebPage === true && request.isSuccess === true) {
-   console.log("성공");
+  
+    console.log("이제 되나");
+   
+    const urlOnboarding = `chrome-extension://${chrome.runtime.id}/index.html`;
+    chrome.tabs.create({ url: urlOnboarding, selected: true }); // creates new tab
   } else if (request && request.closeWebPage === true && request.isSuccess === false) {
     alert('Something went wrong while trying to authenticate your profile!');
-    // chrome.tabs.getSelected(null, function (tab) {
-    //   chrome.tabs.remove(tab.id);
-    // });
-  } else{
-    console.log(" 다른거");
-  }
+ }
+
   return true;
-});
+}
+
+chrome.runtime.onMessage.addListener(testHandle);
+
 
 
 

@@ -1,0 +1,2 @@
+  const clientId = "b59f5ff212158998d4a2";
+        const clientSecret = "4ecfeeb6d09638a55a44e123b91b4f60560a8d3b";
