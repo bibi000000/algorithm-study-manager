@@ -1,12 +1,25 @@
 <html>
   <head>
     <title>새 페이지</title>
+    <script src="/library/jquery-3.3.1.min.js"></script>
   </head>
   <body>
-  
-      
-      <button id="loginButton">Test</button>
+    
+    <p hidden id = "error"></p>
+    <p hidden id = "success"></p>
+    <p hidden id = "unlink"></p>
+    <div style="display: inherit" id ="hook_mode" >
+      <input id ="name" placeholder="Repo Name" type= "text" />
 
-  
+      <button id="hook_button">Test</button>
+    </div>
+
+
+    <div style="display: none" id ="coomit_mode">
+      <p> 여기에 어떤 정보 ?</p>
+    </div>
+     
+
+    <script type ="text/javascript" src ="index.js"></script>
   </body>
 </html>
