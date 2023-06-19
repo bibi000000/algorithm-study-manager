@@ -1,7 +1,23 @@
 
 function testHandle(request, sender, sendResponse) {
   if (request && request.closeWebPage === true && request.isSuccess === true) {
-  
+    chrome.storage.local.set(
+      { Manager_username: request.username } /* , () => {
+      window.localStorage.BaekjoonHub_username = request.username;
+    } */,
+    );
+
+    /* Set token */
+    chrome.storage.local.set(
+      { Manager_token: request.token } /* , () => {
+      window.localStorage[request.KEY] = request.token;
+    } */,
+    );
+
+    /* Close pipe */
+    chrome.storage.local.set({ pipe_studymanager: false }, () => {
+      console.log('Closed pipe.');
+    });
     console.log("이제 되나");
    
     const urlOnboarding = `chrome-extension://${chrome.runtime.id}/index.html`;
