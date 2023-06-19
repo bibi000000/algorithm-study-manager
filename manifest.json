@@ -35,9 +35,11 @@
       ["<all_urls>"],
 
       "resources":[
+        "library/jquery-3.3.1.min.js",
         "popup.html",
         "popup.js",
-        "index.html"
+        "index.html",
+        "index.js"
       ]
     }
   ],
